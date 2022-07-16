@@ -1,0 +1,1122 @@
+{
+  "\u00c4gg 24p Frig\u00e5ende Inomhus M - GARANT, 24p": {
+    "price_per_g": null,
+    "price_per_qty": 2.37,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": null,
+    "volume_in_ml": null,
+    "qty": 24,
+    "nutritional_value": {
+      "fat": 9.7,
+      "carb": 0.4,
+      "protein": 12.0
+    }
+  },
+  "Matyoghurt Turkisk Meze 10% - ARLA K\u00d6KET, 1kg": {
+    "price_per_g": 0.0359,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ARLA K\u00d6KET",
+    "weight_in_g": 1000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 10.0,
+      "carb": 3.5,
+      "protein": 3.2
+    }
+  },
+  "Sm\u00f6r Normalsaltat 82% - SVENSKT SM\u00d6R, 500g": {
+    "price_per_g": 0.1278,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "SVENSKT SM\u00d6R",
+    "weight_in_g": 500.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 82.0,
+      "carb": 20.0,
+      "protein": 0.7
+    }
+  },
+  "Apelsinjuice - BR\u00c4MHULTS, 850ml": {
+    "price_per_g": null,
+    "price_per_qty": null,
+    "price_per_ml": 0.039880000000000006,
+    "brand": "BR\u00c4MHULTS",
+    "weight_in_g": null,
+    "volume_in_ml": 850,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 0.5,
+      "carb": 9.0,
+      "protein": 0.7
+    }
+  },
+  "Citronlemonad - BR\u00c4MHULTS, 850ml": {
+    "price_per_g": null,
+    "price_per_qty": null,
+    "price_per_ml": 0.03518,
+    "brand": "BR\u00c4MHULTS",
+    "weight_in_g": null,
+    "volume_in_ml": 850,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 0.5,
+      "carb": 8.0,
+      "protein": 0.5
+    }
+  },
+  "Juice Apelsin/morot Ingef\u00e4ra/chili - BR\u00c4MHULTS, 850ml": {
+    "price_per_g": null,
+    "price_per_qty": null,
+    "price_per_ml": 0.04177,
+    "brand": "BR\u00c4MHULTS",
+    "weight_in_g": null,
+    "volume_in_ml": 850,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 0.5,
+      "carb": 8.5,
+      "protein": 0.6
+    }
+  },
+  "Morotsjuice - BR\u00c4MHULTS, 850ml": {
+    "price_per_g": null,
+    "price_per_qty": null,
+    "price_per_ml": 0.04177,
+    "brand": "BR\u00c4MHULTS",
+    "weight_in_g": null,
+    "volume_in_ml": 850,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 0.5,
+      "carb": 6.3,
+      "protein": 1.0
+    }
+  },
+  "Juice Bl\u00e5b\u00e4r/svart Vinb\u00e4r - BR\u00c4MHULTS, 850ml": {
+    "price_per_g": null,
+    "price_per_qty": null,
+    "price_per_ml": 0.03518,
+    "brand": "BR\u00c4MHULTS",
+    "weight_in_g": null,
+    "volume_in_ml": 850,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 0.5,
+      "carb": 9.3,
+      "protein": 0.5
+    }
+  },
+  "P\u00e4ronlemonad - BR\u00c4MHULTS, 850ml": {
+    "price_per_g": null,
+    "price_per_qty": null,
+    "price_per_ml": 0.03471,
+    "brand": "BR\u00c4MHULTS",
+    "weight_in_g": null,
+    "volume_in_ml": 850,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 0.5,
+      "carb": 9.9,
+      "protein": 0.5
+    }
+  },
+  "Juice Apelsin/ananas Ingef\u00e4ra/gurkmeja - BR\u00c4MHULTS, 850ml": {
+    "price_per_g": null,
+    "price_per_qty": null,
+    "price_per_ml": 0.04177,
+    "brand": "BR\u00c4MHULTS",
+    "weight_in_g": null,
+    "volume_in_ml": 850,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 0.5,
+      "carb": 9.5,
+      "protein": 0.8
+    }
+  },
+  "Juice \u00c4pple/grapefrukt Passion/ingef\u00e4ra - BR\u00c4MHULTS, 850ml": {
+    "price_per_g": null,
+    "price_per_qty": null,
+    "price_per_ml": 0.04177,
+    "brand": "BR\u00c4MHULTS",
+    "weight_in_g": null,
+    "volume_in_ml": 850,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 0.4,
+      "carb": 10.7,
+      "protein": 0.2
+    }
+  },
+  "Vispgr\u00e4dde L\u00e5ng H\u00e5llbarhet 36% - GARANT, 5dl": {
+    "price_per_g": null,
+    "price_per_qty": null,
+    "price_per_ml": 0.0538,
+    "brand": "GARANT",
+    "weight_in_g": null,
+    "volume_in_ml": 500,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 36.0,
+      "carb": 9.0,
+      "protein": 2.9
+    }
+  },
+  "Vispgr\u00e4dde Laktosfri 35% - VALIO, 5dl": {
+    "price_per_g": null,
+    "price_per_qty": null,
+    "price_per_ml": 0.059,
+    "brand": "VALIO",
+    "weight_in_g": null,
+    "volume_in_ml": 500,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 35.0,
+      "carb": 3.0,
+      "protein": 2.0
+    }
+  },
+  "Kolibrie 33% - KOLIBRIE, 500g": {
+    "price_per_g": 0.1178,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KOLIBRIE",
+    "weight_in_g": 500.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 33.0,
+      "carb": 1.0,
+      "protein": 18.0
+    }
+  },
+  "Feta Mild Och Kr\u00e4mig - KONSTANTINE'S, 150g": {
+    "price_per_g": 0.15267,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KONSTANTINE'S",
+    "weight_in_g": 150.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 26.8,
+      "carb": 0.9,
+      "protein": 16.8
+    }
+  },
+  "Original Large - PHILADELPHIA, 300g": {
+    "price_per_g": 0.08967,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "PHILADELPHIA",
+    "weight_in_g": 300.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 21.0,
+      "carb": 4.3,
+      "protein": 0.2
+    }
+  },
+  "Vitl\u00f6k & \u00d6rter - PHILADELPHIA, 300g": {
+    "price_per_g": 0.08967,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "PHILADELPHIA",
+    "weight_in_g": 300.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 20.0,
+      "carb": 4.0,
+      "protein": 0.5
+    }
+  },
+  "Light 11% - PHILADELPHIA, 300g": {
+    "price_per_g": 0.08967,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "PHILADELPHIA",
+    "weight_in_g": 300.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 11.0,
+      "carb": 5.2,
+      "protein": 0.4
+    }
+  },
+  "Laktosfri Original Large - PHILADELPHIA, 265g": {
+    "price_per_g": 0.11283,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "PHILADELPHIA",
+    "weight_in_g": 265.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 21.0,
+      "carb": 3.2,
+      "protein": 0.2
+    }
+  },
+  "Manchego 37% - FALBYGDENS, ca: 160g": {
+    "price_per_g": 0.309,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "FALBYGDENS",
+    "weight_in_g": 160.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 37.0,
+      "carb": 2.0,
+      "protein": 26.0
+    }
+  },
+  "Halloumiost - FONTANA, 200g": {
+    "price_per_g": 0.1345,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "FONTANA",
+    "weight_in_g": 200.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 25.0,
+      "carb": 2.0,
+      "protein": 23.0
+    }
+  },
+  "Grilloumi Svensk Grillost - FONTANA, 200g": {
+    "price_per_g": 0.1575,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "FONTANA",
+    "weight_in_g": 200.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 24.0,
+      "carb": 2.0,
+      "protein": 23.0
+    }
+  },
+  "Halloumi Laktosfri - FONTANA, 200g": {
+    "price_per_g": 0.1445,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "FONTANA",
+    "weight_in_g": 200.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 25.0,
+      "carb": 1.5,
+      "protein": 22.5
+    }
+  },
+  "Grilloumi Burgare 2-pack - FONTANA, 150g": {
+    "price_per_g": 0.206,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "FONTANA",
+    "weight_in_g": 150.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 24.0,
+      "carb": 2.0,
+      "protein": 23.0
+    }
+  },
+  "Cheddar Kr\u00e4mig Lagrad 32% - KVIBILLE, ca: 750g": {
+    "price_per_g": 0.179,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KVIBILLE",
+    "weight_in_g": 750.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 32.0,
+      "carb": 0.0,
+      "protein": 24.0
+    }
+  },
+  "Cheddar Kr\u00e4mig Mild 32% - KVIBILLE, ca: 750g": {
+    "price_per_g": 0.165,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KVIBILLE",
+    "weight_in_g": 750.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 32.0,
+      "carb": 0.0,
+      "protein": 24.0
+    }
+  },
+  "Kaltbach Creamy - ENGELMANNS, ca: 150g": {
+    "price_per_g": 0.385,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ENGELMANNS",
+    "weight_in_g": 150.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 34.0,
+      "carb": 1.0,
+      "protein": 21.0
+    }
+  },
+  "Le Campagnier No 195 - ENGELMANNS, ca: 180g": {
+    "price_per_g": 0.299,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ENGELMANNS",
+    "weight_in_g": 180.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 31.0,
+      "carb": 1.2,
+      "protein": 15.0
+    }
+  },
+  "Herrg\u00e5rd 28% 12m\u00e5nader - ALLERUM, ca: 700g": {
+    "price_per_g": 0.149,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ALLERUM",
+    "weight_in_g": 700.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 28.0,
+      "carb": 0.0,
+      "protein": 27.0
+    }
+  },
+  "Pr\u00e4st 35% 12m\u00e5nader - ALLERUM, ca: 700g": {
+    "price_per_g": 0.149,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ALLERUM",
+    "weight_in_g": 700.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 35.0,
+      "carb": 0.0,
+      "protein": 22.0
+    }
+  },
+  "Grev\u00e9 28% 12m\u00e5nader - ALLERUM, ca: 700g": {
+    "price_per_g": 0.149,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ALLERUM",
+    "weight_in_g": 700.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 28.0,
+      "carb": 0.0,
+      "protein": 27.0
+    }
+  },
+  "Rike Ost 36% - ALLERUM, ca: 700g": {
+    "price_per_g": 0.149,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ALLERUM",
+    "weight_in_g": 700.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 36.0,
+      "carb": 0.0,
+      "protein": 22.0
+    }
+  },
+  "Creamy Blue 42% - CASTELLO, 150g": {
+    "price_per_g": 0.226,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "CASTELLO",
+    "weight_in_g": 150.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 42.0,
+      "carb": 0.5,
+      "protein": 13.0
+    }
+  },
+  "\u00c4del Gr\u00e4dd 36% - KVIBILLE, 140g": {
+    "price_per_g": 0.22786,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KVIBILLE",
+    "weight_in_g": 140.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 36.0,
+      "carb": 0.5,
+      "protein": 18.0
+    }
+  },
+  "\u00c4del 30% - KVIBILLE, 140g": {
+    "price_per_g": 0.22786,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KVIBILLE",
+    "weight_in_g": 140.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 30.0,
+      "carb": 0.5,
+      "protein": 22.0
+    }
+  },
+  "Creamy White 40% - CASTELLO, 150g": {
+    "price_per_g": 0.226,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "CASTELLO",
+    "weight_in_g": 150.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 39.0,
+      "carb": 0.5,
+      "protein": 14.0
+    }
+  },
+  "White Red Chili 38% - CASTELLO, 150g": {
+    "price_per_g": 0.226,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "CASTELLO",
+    "weight_in_g": 150.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 39.0,
+      "carb": 0.7,
+      "protein": 14.0
+    }
+  },
+  "White Truffle 38% - CASTELLO, 150g": {
+    "price_per_g": 0.226,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "CASTELLO",
+    "weight_in_g": 150.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 38.0,
+      "carb": 0.5,
+      "protein": 14.0
+    }
+  },
+  "Organic Blue 42% - CASTELLO, 150g": {
+    "price_per_g": 0.226,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "CASTELLO",
+    "weight_in_g": 150.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 42.0,
+      "carb": 0.5,
+      "protein": 13.0
+    }
+  },
+  "Black 29% - CASTELLO, 150g": {
+    "price_per_g": 0.226,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "CASTELLO",
+    "weight_in_g": 150.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 29.0,
+      "carb": 0.5,
+      "protein": 17.0
+    }
+  },
+  "Prinskorv - GARANT, 900g": {
+    "price_per_g": 0.08322,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": 900.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 21.0,
+      "carb": 4.8,
+      "protein": 2.0
+    }
+  },
+  "Fuet Lufttorkad Salami - GARANT, 170g": {
+    "price_per_g": 0.21118,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": 170.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 34.0,
+      "carb": 1.7,
+      "protein": 27.0
+    }
+  },
+  "K\u00f6ttbullar Sm\u00e5 Delikatess Frysta - FELIX, 600g": {
+    "price_per_g": 0.0965,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "FELIX",
+    "weight_in_g": 600.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 17.0,
+      "carb": 7.0,
+      "protein": 15.0
+    }
+  },
+  "Tapas Selection - GARANT, 120g": {
+    "price_per_g": 0.3825,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": 120.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 14.0,
+      "carb": 0.9,
+      "protein": 0.5
+    }
+  },
+  "Fl\u00e4skytterfil\u00e9 - NYBERGS DELI, ca: 1kg": {
+    "price_per_g": 0.0849,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "NYBERGS DELI",
+    "weight_in_g": 1000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 4.0,
+      "carb": 2.0,
+      "protein": 17.0
+    }
+  },
+  "Fl\u00e4skkarr\u00e9 med Ben Grillkryddad Sverige - GARANT, ca: 1.5kg": {
+    "price_per_g": 0.0979,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": 5000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 11.0,
+      "carb": 1.2,
+      "protein": 19.0
+    }
+  },
+  "Kycklingfil\u00e9 Br\u00f6stfil\u00e9 Sverige - GARANT, ca: 850g": {
+    "price_per_g": 0.155,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": 850.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 3.0,
+      "carb": 0.5,
+      "protein": 23.0
+    }
+  },
+  "L\u00e5rfil\u00e9 Kyckling F\u00e4rsk Sverige - GARANT, ca: 850g": {
+    "price_per_g": 0.149,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": 850.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 9.0,
+      "carb": 0.5,
+      "protein": 19.0
+    }
+  },
+  "Kalkonbr\u00f6st Bastur\u00f6kt Skivad - L\u00d6NNEBERGA, 120g": {
+    "price_per_g": 0.26583,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "L\u00d6NNEBERGA",
+    "weight_in_g": 120.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 0.9,
+      "carb": 3.0,
+      "protein": 20.0
+    }
+  },
+  "Kyckling Grillad Skivad - L\u00d6NNEBERGA, 120g": {
+    "price_per_g": 0.26583,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "L\u00d6NNEBERGA",
+    "weight_in_g": 120.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 1.9,
+      "carb": 2.0,
+      "protein": 22.0
+    }
+  },
+  "Kyckling Extrar\u00f6kt Skivad - L\u00d6NNEBERGA, 120g": {
+    "price_per_g": 0.26583,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "L\u00d6NNEBERGA",
+    "weight_in_g": 120.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 1.9,
+      "carb": 1.5,
+      "protein": 23.0
+    }
+  },
+  "K\u00f6ttbullar Sverige - GARANT, 1kg": {
+    "price_per_g": 0.053899999999999997,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": 1000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 18.0,
+      "carb": 8.0,
+      "protein": 1.2
+    }
+  },
+  "Kycklingspett Paprika \u00d6rter - L\u00d6NNEBERGA, 480g": {
+    "price_per_g": 0.19354,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "L\u00d6NNEBERGA",
+    "weight_in_g": 480.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 4.2,
+      "carb": 1.3,
+      "protein": 22.0
+    }
+  },
+  "Kycklingspett L\u00e5rfil\u00e8 Chili&ingef\u00e4ra - L\u00d6NNEBERGA, 480g": {
+    "price_per_g": 0.19354,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "L\u00d6NNEBERGA",
+    "weight_in_g": 480.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 6.0,
+      "carb": 3.0,
+      "protein": 18.0
+    }
+  },
+  "Kycklingspett Jalapeno Vitl\u00f6k - L\u00d6NNEBERGA, 480g": {
+    "price_per_g": 0.19354,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "L\u00d6NNEBERGA",
+    "weight_in_g": 480.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 3.6,
+      "carb": 2.0,
+      "protein": 20.0
+    }
+  },
+  "Kycklingben Marinerade Sverige - GARANT, ca: 1.8kg": {
+    "price_per_g": 0.0639,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": 8000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 8.9,
+      "carb": 0.5,
+      "protein": 19.0
+    }
+  },
+  "Skinka Bastur\u00f6kt Skivad - L\u00d6NNEBERGA, 120g": {
+    "price_per_g": 0.2325,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "L\u00d6NNEBERGA",
+    "weight_in_g": 120.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 2.8,
+      "carb": 2.5,
+      "protein": 19.0
+    }
+  },
+  "Skinka Extrar\u00f6kt Skivad - L\u00d6NNEBERGA, 120g": {
+    "price_per_g": 0.2325,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "L\u00d6NNEBERGA",
+    "weight_in_g": 120.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 2.8,
+      "carb": 2.5,
+      "protein": 19.0
+    }
+  },
+  "Skinka Ugnsrostad - L\u00d6NNEBERGA, 120g": {
+    "price_per_g": 0.2325,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "L\u00d6NNEBERGA",
+    "weight_in_g": 120.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 2.8,
+      "carb": 2.5,
+      "protein": 19.0
+    }
+  },
+  "Kokt Skinka Skivad - L\u00d6NNEBERGA, 120g": {
+    "price_per_g": 0.2325,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "L\u00d6NNEBERGA",
+    "weight_in_g": 120.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 2.8,
+      "carb": 2.5,
+      "protein": 19.0
+    }
+  },
+  "Skinka Bj\u00f6rksp\u00e5nsr\u00f6kt Skivad - L\u00d6NNEBERGA, 120g": {
+    "price_per_g": 0.2325,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "L\u00d6NNEBERGA",
+    "weight_in_g": 120.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 2.9,
+      "carb": 2.5,
+      "protein": 19.0
+    }
+  },
+  "Lind\u00f6salami Peppar Skivad - L\u00d6NNEBERGA, 120g": {
+    "price_per_g": 0.2325,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "L\u00d6NNEBERGA",
+    "weight_in_g": 120.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 38.0,
+      "carb": 2.0,
+      "protein": 23.0
+    }
+  },
+  "Cabanossy - G\u00d8L, 450g": {
+    "price_per_g": 0.10867,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "G\u00d8L",
+    "weight_in_g": 450.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 23.0,
+      "carb": 2.8,
+      "protein": 13.0
+    }
+  },
+  "Ostfrankfurter - G\u00d8L, 335g": {
+    "price_per_g": 0.14,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "G\u00d8L",
+    "weight_in_g": 335.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 23.0,
+      "carb": 3.5,
+      "protein": 15.0
+    }
+  },
+  "Korv Cheddar & Chili - G\u00d8L, 335g": {
+    "price_per_g": 0.14,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "G\u00d8L",
+    "weight_in_g": 335.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 23.0,
+      "carb": 3.8,
+      "protein": 15.0
+    }
+  },
+  "Peppargrillare Kryddkorv - G\u00d6L, 450g": {
+    "price_per_g": 0.10643999999999999,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "G\u00d6L",
+    "weight_in_g": 450.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 25.0,
+      "carb": 3.1,
+      "protein": 14.0
+    }
+  },
+  "Cabanossi \u00d6lkorv - RIDDERHEIMS, 50g": {
+    "price_per_g": 0.378,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "RIDDERHEIMS",
+    "weight_in_g": 50.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 36.0,
+      "carb": 2.0,
+      "protein": 27.0
+    }
+  },
+  "\u00d6lkorv Hot Amigo - RIDDERHEIMS, 50g": {
+    "price_per_g": 0.378,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "RIDDERHEIMS",
+    "weight_in_g": 50.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 36.0,
+      "carb": 3.5,
+      "protein": 27.0
+    }
+  },
+  "Caramba \u00d6lkorv - RIDDERHEIMS, 50g": {
+    "price_per_g": 0.378,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "RIDDERHEIMS",
+    "weight_in_g": 50.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 36.0,
+      "carb": 3.0,
+      "protein": 27.0
+    }
+  },
+  "Joddlarkorv \u00d6lkorv - RIDDERHEIMS, 50g": {
+    "price_per_g": 0.378,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "RIDDERHEIMS",
+    "weight_in_g": 50.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 36.0,
+      "carb": 3.0,
+      "protein": 27.0
+    }
+  },
+  "Paprika F\u00e4rskostfylld - MONTE CASTELLO, 120g": {
+    "price_per_g": 0.24083000000000002,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "MONTE CASTELLO",
+    "weight_in_g": 120.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 12.0,
+      "carb": 17.0,
+      "protein": 3.8
+    }
+  },
+  "Oliver med Chili - MONTE CASTELLO, 140g": {
+    "price_per_g": 0.135,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "MONTE CASTELLO",
+    "weight_in_g": 140.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 15.7,
+      "carb": 0.3,
+      "protein": 0.9
+    }
+  },
+  "Vitl\u00f6ksoliver - MONTE CASTELLO, 150g": {
+    "price_per_g": 0.11267,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "MONTE CASTELLO",
+    "weight_in_g": 150.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 18.5,
+      "carb": 1.0,
+      "protein": 1.3
+    }
+  },
+  "Tomater Soltorkade - MONTE CASTELLO, 120g": {
+    "price_per_g": 0.1575,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "MONTE CASTELLO",
+    "weight_in_g": 120.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 27.0,
+      "carb": 17.5,
+      "protein": 6.6
+    }
+  },
+  "Mammutoliver - MONTE CASTELLO, 150g": {
+    "price_per_g": 0.15267,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "MONTE CASTELLO",
+    "weight_in_g": 150.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 13.7,
+      "carb": 0.4,
+      "protein": 0.9
+    }
+  },
+  "Oliver Vitost - MONTE CASTELLO, 150g": {
+    "price_per_g": 0.11267,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "MONTE CASTELLO",
+    "weight_in_g": 150.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 22.0,
+      "carb": 1.9,
+      "protein": 3.7
+    }
+  },
+  "Vitl\u00f6ksklyftor - MONTE CASTELLO, 150g": {
+    "price_per_g": 0.126,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "MONTE CASTELLO",
+    "weight_in_g": 150.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 2.6,
+      "carb": 14.0,
+      "protein": 2.1
+    }
+  },
+  "Salsicciakorv F\u00e4rsk Sverige - GARANT, 350g": {
+    "price_per_g": 0.09971,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": 350.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 18.0,
+      "carb": 3.0,
+      "protein": 15.0
+    }
+  },
+  "Chorizokorv F\u00e4rsk Sverige - GARANT, 350g": {
+    "price_per_g": 0.10257,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": 350.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 19.0,
+      "carb": 1.5,
+      "protein": 15.0
+    }
+  },
+  "F\u00e4rskkorv F\u00e4nk\u00e5l Citron - GARANT, 350g": {
+    "price_per_g": 0.11114,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": 350.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "nutritional_value": {
+      "fat": 19.0,
+      "carb": 3.0,
+      "protein": 0.4
+    }
+  }
+}
