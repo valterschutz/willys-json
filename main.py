@@ -6,6 +6,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
+# TODO: nutritional table sometimes changes
+
 PAGE_LIMIT = 1
 G_PER_EGG = 50
 OUTPUT_FILE_NAME = 'data.json'
@@ -35,7 +37,6 @@ def extract_data_from_page(driver, data, url):
         print("Loading more items...")
         load_button.click()
         page += 1
-        sleep(0)
         try:
             load_button = driver.find_element(By.CSS_SELECTOR, ".Buttonstyles__StyledButton-sc-1g4oxwr-0.bXXAMk.LoadMore__LoadMoreBtn-sc-16fjaj7-3.bnbvpm")
         except:
@@ -49,7 +50,6 @@ def extract_data_from_page(driver, data, url):
     # pdb.set_trace()
     for food_img in food_imgs:
         food_img.click()
-        sleep(1)
         name = driver.find_element(By.CSS_SELECTOR, ".Headingstyles__StyledH2-sc-r7tfy8-1.cJhDBd").text
         print(f"Gathering data for \"{name}\"")
         brand = driver.find_element(By.CSS_SELECTOR, "a.Linkstyles__StyledLink-sc-blur7a-0.epxKYt.ProductDetailsstyles__StyledProductDetailsManufacturerLink-sc-1gianr0-21.fpLVjo").text
@@ -69,14 +69,16 @@ def extract_data_from_page(driver, data, url):
             if "ägg" in name.lower():
                 weight_in_g = float(num_str) * G_PER_EGG
             qty = int(num_str)
+        # For liquids, assume 1g per ml
         elif unit_str == 'ml':
             volume_in_ml = int(num_str)
+            weight_in_g = volume_in_ml
         elif unit_str == 'dl':
             volume_in_ml = int(num_str) * 100
+            weight_in_g = volume_in_ml * 100
         elif unit_str == 'l':
             volume_in_ml = int(num_str) * 1000
-            # For liquids, assume 1g per ml
-            weight_in_g = volume_in_ml
+            weight_in_g = volume_in_ml * 1000
         else:
             raise Exception("Could not get weight, quantity or volume from subname")
 
@@ -98,10 +100,8 @@ def extract_data_from_page(driver, data, url):
         else:
             raise Exception("Price unit was neither weight or quantity")
 
-        pdb.set_trace()
-
-        
         # Try to get nutritional value
+        # TODO: improve this
         try:
             # pdb.set_trace()
             show_more_button = driver.find_element(By.CSS_SELECTOR, "button.Buttonstyles__StyledButton-sc-1g4oxwr-0.hVCRFK.ExpandableContainerstyles__StyledExandableContainerButton-sc-1ywlidl-1.jyNfOr")
@@ -118,10 +118,10 @@ def extract_data_from_page(driver, data, url):
             carb = float(re.search(r'[.\d]+', carb_text).group())
             protein_text = nutrition_table_body.find_element(By.CSS_SELECTOR, "tbody>tr:nth-child(7)").text
             protein = float(re.search(r'[.\d]+', protein_text).group())
-            nutritional_value = {
-                'fat': fat,
-                'carb': carb,
-                'protein': protein
+            macros_per_g = {
+                'fat': fat / 100,
+                'carb': carb / 100,
+                'protein': protein / 100
             }
             print('  Found nutritional value.')
         except:
