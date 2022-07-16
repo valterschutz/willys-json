@@ -8,9 +8,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 21.0,
-      "kolhydrat": 4.8,
-      "protein": 11.0
+      "fett": 0.21,
+      "kolhydrat": 0.048,
+      "protein": 0.11
     }
   },
   "Fuet Lufttorkad Salami - GARANT, 170g": {
@@ -22,9 +22,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 34.0,
-      "kolhydrat": 1.7,
-      "protein": 27.0
+      "fett": 0.34,
+      "kolhydrat": 0.017,
+      "protein": 0.27
     }
   },
   "K\u00f6ttbullar Sm\u00e5 Delikatess Frysta - FELIX, 600g": {
@@ -36,9 +36,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 17.0,
-      "kolhydrat": 7.0,
-      "protein": 15.0
+      "fett": 0.17,
+      "kolhydrat": 0.07,
+      "protein": 0.15
     }
   },
   "Tapas Selection - GARANT, 120g": {
@@ -50,9 +50,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 14.0,
-      "kolhydrat": 0.9,
-      "protein": 30.0
+      "fett": 0.14,
+      "kolhydrat": 0.009000000000000001,
+      "protein": 0.3
     }
   },
   "Fl\u00e4skytterfil\u00e9 - NYBERGS DELI, ca: 1kg": {
@@ -64,9 +64,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 4.0,
-      "kolhydrat": 2.0,
-      "protein": 17.0
+      "fett": 0.04,
+      "kolhydrat": 0.02,
+      "protein": 0.17
     }
   },
   "Fl\u00e4skkarr\u00e9 med Ben Grillkryddad Sverige - GARANT, ca: 1.5kg": {
@@ -78,9 +78,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 11.0,
-      "kolhydrat": 1.2,
-      "protein": 19.0
+      "fett": 0.11,
+      "kolhydrat": 0.012,
+      "protein": 0.19
     }
   },
   "Kycklingfil\u00e9 Br\u00f6stfil\u00e9 Sverige - GARANT, ca: 850g": {
@@ -92,9 +92,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 3.0,
-      "kolhydrat": 0.5,
-      "protein": 23.0
+      "fett": 0.03,
+      "kolhydrat": 0.005,
+      "protein": 0.23
     }
   },
   "L\u00e5rfil\u00e9 Kyckling F\u00e4rsk Sverige - GARANT, ca: 850g": {
@@ -106,9 +106,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 9.0,
-      "kolhydrat": 0.5,
-      "protein": 19.0
+      "fett": 0.09,
+      "kolhydrat": 0.005,
+      "protein": 0.19
     }
   },
   "Kalkonbr\u00f6st Bastur\u00f6kt Skivad - L\u00d6NNEBERGA, 120g": {
@@ -120,9 +120,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 0.9,
-      "kolhydrat": 3.0,
-      "protein": 20.0
+      "fett": 0.009000000000000001,
+      "kolhydrat": 0.03,
+      "protein": 0.2
     }
   },
   "Kyckling Grillad Skivad - L\u00d6NNEBERGA, 120g": {
@@ -134,9 +134,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 1.9,
-      "kolhydrat": 2.0,
-      "protein": 22.0
+      "fett": 0.019,
+      "kolhydrat": 0.02,
+      "protein": 0.22
     }
   },
   "Kyckling Extrar\u00f6kt Skivad - L\u00d6NNEBERGA, 120g": {
@@ -148,9 +148,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 1.9,
-      "kolhydrat": 1.5,
-      "protein": 23.0
+      "fett": 0.019,
+      "kolhydrat": 0.015,
+      "protein": 0.23
     }
   },
   "K\u00f6ttbullar Sverige - GARANT, 1kg": {
@@ -162,9 +162,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 18.0,
-      "kolhydrat": 8.0,
-      "protein": 13.0
+      "fett": 0.18,
+      "kolhydrat": 0.08,
+      "protein": 0.13
     }
   },
   "Kycklingspett Paprika \u00d6rter - L\u00d6NNEBERGA, 480g": {
@@ -176,9 +176,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 4.2,
-      "kolhydrat": 1.3,
-      "protein": 22.0
+      "fett": 0.042,
+      "kolhydrat": 0.013000000000000001,
+      "protein": 0.22
     }
   },
   "Kycklingspett L\u00e5rfil\u00e8 Chili&ingef\u00e4ra - L\u00d6NNEBERGA, 480g": {
@@ -190,9 +190,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 6.0,
-      "kolhydrat": 3.0,
-      "protein": 18.0
+      "fett": 0.06,
+      "kolhydrat": 0.03,
+      "protein": 0.18
     }
   },
   "Kycklingspett Jalapeno Vitl\u00f6k - L\u00d6NNEBERGA, 480g": {
@@ -204,9 +204,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 3.6,
-      "kolhydrat": 2.0,
-      "protein": 20.0
+      "fett": 0.036000000000000004,
+      "kolhydrat": 0.02,
+      "protein": 0.2
     }
   },
   "Kycklingben Marinerade Sverige - GARANT, ca: 1.8kg": {
@@ -218,9 +218,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 8.9,
-      "kolhydrat": 0.5,
-      "protein": 19.0
+      "fett": 0.08900000000000001,
+      "kolhydrat": 0.005,
+      "protein": 0.19
     }
   },
   "Skinka Bastur\u00f6kt Skivad - L\u00d6NNEBERGA, 120g": {
@@ -232,9 +232,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 2.8,
-      "kolhydrat": 2.5,
-      "protein": 19.0
+      "fett": 0.027999999999999997,
+      "kolhydrat": 0.025,
+      "protein": 0.19
     }
   },
   "Skinka Extrar\u00f6kt Skivad - L\u00d6NNEBERGA, 120g": {
@@ -246,9 +246,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 2.8,
-      "kolhydrat": 2.5,
-      "protein": 19.0
+      "fett": 0.027999999999999997,
+      "kolhydrat": 0.025,
+      "protein": 0.19
     }
   },
   "Skinka Ugnsrostad - L\u00d6NNEBERGA, 120g": {
@@ -260,9 +260,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 2.8,
-      "kolhydrat": 2.5,
-      "protein": 19.0
+      "fett": 0.027999999999999997,
+      "kolhydrat": 0.025,
+      "protein": 0.19
     }
   },
   "Kokt Skinka Skivad - L\u00d6NNEBERGA, 120g": {
@@ -274,9 +274,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 2.8,
-      "kolhydrat": 2.5,
-      "protein": 19.0
+      "fett": 0.027999999999999997,
+      "kolhydrat": 0.025,
+      "protein": 0.19
     }
   },
   "Skinka Bj\u00f6rksp\u00e5nsr\u00f6kt Skivad - L\u00d6NNEBERGA, 120g": {
@@ -288,9 +288,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 2.9,
-      "kolhydrat": 2.5,
-      "protein": 19.0
+      "fett": 0.028999999999999998,
+      "kolhydrat": 0.025,
+      "protein": 0.19
     }
   },
   "Lind\u00f6salami Peppar Skivad - L\u00d6NNEBERGA, 120g": {
@@ -302,9 +302,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 38.0,
-      "kolhydrat": 2.0,
-      "protein": 23.0
+      "fett": 0.38,
+      "kolhydrat": 0.02,
+      "protein": 0.23
     }
   },
   "Cabanossy - G\u00d8L, 450g": {
@@ -316,9 +316,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 23.0,
-      "kolhydrat": 2.8,
-      "protein": 13.0
+      "fett": 0.23,
+      "kolhydrat": 0.027999999999999997,
+      "protein": 0.13
     }
   },
   "Ostfrankfurter - G\u00d8L, 335g": {
@@ -330,9 +330,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 23.0,
-      "kolhydrat": 3.5,
-      "protein": 15.0
+      "fett": 0.23,
+      "kolhydrat": 0.035,
+      "protein": 0.15
     }
   },
   "Korv Cheddar & Chili - G\u00d8L, 335g": {
@@ -344,9 +344,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 23.0,
-      "kolhydrat": 3.8,
-      "protein": 15.0
+      "fett": 0.23,
+      "kolhydrat": 0.038,
+      "protein": 0.15
     }
   },
   "Peppargrillare Kryddkorv - G\u00d6L, 450g": {
@@ -358,9 +358,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 25.0,
-      "kolhydrat": 3.1,
-      "protein": 14.0
+      "fett": 0.25,
+      "kolhydrat": 0.031,
+      "protein": 0.14
     }
   },
   "Cabanossi \u00d6lkorv - RIDDERHEIMS, 50g": {
@@ -372,9 +372,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 36.0,
-      "kolhydrat": 2.0,
-      "protein": 27.0
+      "fett": 0.36,
+      "kolhydrat": 0.02,
+      "protein": 0.27
     }
   },
   "\u00d6lkorv Hot Amigo - RIDDERHEIMS, 50g": {
@@ -386,9 +386,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 36.0,
-      "kolhydrat": 3.5,
-      "protein": 27.0
+      "fett": 0.36,
+      "kolhydrat": 0.035,
+      "protein": 0.27
     }
   },
   "Caramba \u00d6lkorv - RIDDERHEIMS, 50g": {
@@ -400,9 +400,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 36.0,
-      "kolhydrat": 3.0,
-      "protein": 27.0
+      "fett": 0.36,
+      "kolhydrat": 0.03,
+      "protein": 0.27
     }
   },
   "Joddlarkorv \u00d6lkorv - RIDDERHEIMS, 50g": {
@@ -414,9 +414,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 36.0,
-      "kolhydrat": 3.0,
-      "protein": 27.0
+      "fett": 0.36,
+      "kolhydrat": 0.03,
+      "protein": 0.27
     }
   },
   "Paprika F\u00e4rskostfylld - MONTE CASTELLO, 120g": {
@@ -428,9 +428,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 12.0,
-      "kolhydrat": 17.0,
-      "protein": 3.8
+      "fett": 0.12,
+      "kolhydrat": 0.17,
+      "protein": 0.038
     }
   },
   "Oliver med Chili - MONTE CASTELLO, 140g": {
@@ -442,9 +442,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 15.7,
-      "kolhydrat": 0.3,
-      "protein": 0.9
+      "fett": 0.157,
+      "kolhydrat": 0.003,
+      "protein": 0.009000000000000001
     }
   },
   "Vitl\u00f6ksoliver - MONTE CASTELLO, 150g": {
@@ -456,9 +456,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 18.5,
-      "kolhydrat": 1.0,
-      "protein": 1.3
+      "fett": 0.185,
+      "kolhydrat": 0.01,
+      "protein": 0.013000000000000001
     }
   },
   "Tomater Soltorkade - MONTE CASTELLO, 120g": {
@@ -470,9 +470,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 27.0,
-      "kolhydrat": 17.5,
-      "protein": 6.6
+      "fett": 0.27,
+      "kolhydrat": 0.175,
+      "protein": 0.066
     }
   },
   "Mammutoliver - MONTE CASTELLO, 150g": {
@@ -484,9 +484,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 13.7,
-      "kolhydrat": 0.4,
-      "protein": 0.9
+      "fett": 0.13699999999999998,
+      "kolhydrat": 0.004,
+      "protein": 0.009000000000000001
     }
   },
   "Oliver Vitost - MONTE CASTELLO, 150g": {
@@ -498,9 +498,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 22.0,
-      "kolhydrat": 1.9,
-      "protein": 3.7
+      "fett": 0.22,
+      "kolhydrat": 0.019,
+      "protein": 0.037000000000000005
     }
   },
   "Vitl\u00f6ksklyftor - MONTE CASTELLO, 150g": {
@@ -512,9 +512,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 2.6,
-      "kolhydrat": 14.0,
-      "protein": 7.5
+      "fett": 0.026000000000000002,
+      "kolhydrat": 0.14,
+      "protein": 0.075
     }
   },
   "Salsicciakorv F\u00e4rsk Sverige - GARANT, 350g": {
@@ -526,9 +526,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 18.0,
-      "kolhydrat": 3.0,
-      "protein": 15.0
+      "fett": 0.18,
+      "kolhydrat": 0.03,
+      "protein": 0.15
     }
   },
   "Chorizokorv F\u00e4rsk Sverige - GARANT, 350g": {
@@ -540,9 +540,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 19.0,
-      "kolhydrat": 1.5,
-      "protein": 15.0
+      "fett": 0.19,
+      "kolhydrat": 0.015,
+      "protein": 0.15
     }
   },
   "F\u00e4rskkorv F\u00e4nk\u00e5l Citron - GARANT, 350g": {
@@ -554,9 +554,9 @@
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 19.0,
-      "kolhydrat": 3.0,
-      "protein": 15.0
+      "fett": 0.19,
+      "kolhydrat": 0.03,
+      "protein": 0.15
     }
   }
 }
