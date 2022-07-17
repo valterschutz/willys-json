@@ -19,14 +19,63 @@ OUTPUT_FILE_NAME = 'data.json'
 #     "https://www.willys.se/sortiment/kott-chark-och-fagel/fagel"
 # ]
 URLS = [
-    "https://www.willys.se/sortiment/mejeri-ost-och-agg",
-    "https://www.willys.se/sortiment/kott-chark-och-fagel",
-    "https://www.willys.se/sortiment/skafferi",
-    "https://www.willys.se/sortiment/brod-och-kakor",
-    "https://www.willys.se/sortiment/fryst",
+    "https://www.willys.se/sortiment/kott-chark-och-fagel/fagel",
+    "https://www.willys.se/sortiment/kott-chark-och-fagel/kott",
+    "https://www.willys.se/sortiment/kott-chark-och-fagel/korv",
+    "https://www.willys.se/sortiment/kott-chark-och-fagel/chark",
+    "https://www.willys.se/sortiment/kott-chark-och-fagel/palagg",
+    "https://www.willys.se/sortiment/kott-chark-och-fagel/delikatesschark",
+    "https://www.willys.se/sortiment/mejeri-ost-och-agg/ost",
+    "https://www.willys.se/sortiment/mejeri-ost-och-agg/mjolk",
+    "https://www.willys.se/sortiment/mejeri-ost-och-agg/juice-fruktdryck-och-smoothie",
+    "https://www.willys.se/sortiment/mejeri-ost-och-agg/havre-soja-risdryck-mm",
+    "https://www.willys.se/sortiment/mejeri-ost-och-agg/filmjolk-och-yoghurt",
+    "https://www.willys.se/sortiment/mejeri-ost-och-agg/kvarg-och-cottage-cheese",
+    "https://www.willys.se/sortiment/mejeri-ost-och-agg/matlagning",
+    "https://www.willys.se/sortiment/mejeri-ost-och-agg/smor-margarin-och-jast",
+    "https://www.willys.se/sortiment/mejeri-ost-och-agg/agg",
+    "https://www.willys.se/sortiment/mejeri-ost-och-agg/mellanmal-och-desserter",
+    "https://www.willys.se/sortiment/mejeri-ost-och-agg/vegetariskt",
+    "https://www.willys.se/sortiment/mejeri-ost-och-agg/allergi",
+    "https://www.willys.se/sortiment/skafferi/konserver-och-burkar",
+    "https://www.willys.se/sortiment/skafferi/oliver-och-delikatesser",
+    "https://www.willys.se/sortiment/skafferi/olja-och-vinager",
+    "https://www.willys.se/sortiment/skafferi/kryddor-och-smaksattare",
+    "https://www.willys.se/sortiment/skafferi/texmex",
+    "https://www.willys.se/sortiment/skafferi/asien",
+    "https://www.willys.se/sortiment/skafferi/pasta-ris-och-matgryn",
+    "https://www.willys.se/sortiment/skafferi/torra-baljvaxter",
+    "https://www.willys.se/sortiment/skafferi/bakning",
+    "https://www.willys.se/sortiment/skafferi/flingor-gryner-och-musli",
+    "https://www.willys.se/sortiment/skafferi/sylt-mos-och-marmelad",
+    "https://www.willys.se/sortiment/skafferi/soppor-och-kramer",
+    "https://www.willys.se/sortiment/brod-och-kakor/brod",
+    "https://www.willys.se/sortiment/brod-och-kakor/knackebrod-och-skorpor",
+    "https://www.willys.se/sortiment/brod-och-kakor/ris-och-majskakor",
+    "https://www.willys.se/sortiment/brod-och-kakor/fastfoodbrod",
+    "https://www.willys.se/sortiment/brod-och-kakor/kex-och-kakor",
+    "https://www.willys.se/sortiment/brod-och-kakor/kondis-och-fika",
+    "https://www.willys.se/sortiment/brod-och-kakor/fryst",
+    "https://www.willys.se/sortiment/fryst/kott-och-fagel",
+    "https://www.willys.se/sortiment/fryst/kott-burgare-och-korv-mm",
+    "https://www.willys.se/sortiment/fryst/fisk-och-skaldjur",
+    "https://www.willys.se/sortiment/fryst/fardigmat",
+    "https://www.willys.se/sortiment/fryst/portionsratter-och-snabblagat",
+    "https://www.willys.se/sortiment/fryst/potatis",
+    "https://www.willys.se/sortiment/fryst/gronsaker-och-kryddor",
+    "https://www.willys.se/sortiment/fryst/bageri",
+    "https://www.willys.se/sortiment/fryst/vegetariskt",
+    "https://www.willys.se/sortiment/fryst/frukt-och-bar",
+    "https://www.willys.se/sortiment/fryst/glass",
+    "https://www.willys.se/sortiment/fryst/allergi",
     "https://www.willys.se/sortiment/fisk-och-skaldjur",
     "https://www.willys.se/sortiment/vegetariskt",
-    "https://www.willys.se/sortiment/glass-godis-och-snacks",
+    "https://www.willys.se/sortiment/glass-godis-och-snacks/godis",
+    "https://www.willys.se/sortiment/glass-godis-och-snacks/choklad",
+    "https://www.willys.se/sortiment/glass-godis-och-snacks/presentforpackningar",
+    "https://www.willys.se/sortiment/glass-godis-och-snacks/chips-snacks-och-dip",
+    "https://www.willys.se/sortiment/glass-godis-och-snacks/nyttiga-snacks",
+    "https://www.willys.se/sortiment/glass-godis-och-snacks/glass-och-tillbehor",
     "https://www.willys.se/sortiment/fardigmat"
 ]
 
@@ -58,7 +107,7 @@ def extract_data_from_food_img(driver, data, food_img):
 
     # Process subname, exit if unit does not match
     subname = driver.find_element(By.CSS_SELECTOR, "span.ProductDetailsstyles__StyledProductDetailsManufacturerVolume-sc-1gianr0-22.jlvnMx").text
-    match = re.search(r'([,\d]+)(g|kg|p|ml|dl|l)', subname)
+    match = re.search(r'([,\d]+)(g|kg|p|ml|dl|l)', subname, re.IGNORECASE)
     if match:
         num_str, unit_str = match.groups()
     else:
@@ -92,7 +141,7 @@ def extract_data_from_food_img(driver, data, food_img):
 
     # Process price
     price_text = driver.find_element(By.CSS_SELECTOR, ".Textstyles__StyledText-sc-3u2veo-0.kIqpfh").text
-    num_str, unit_str = re.search(f'Jmf-pris ([,\d]*) (kr/kg|kr/st|kr/l)', price_text).groups()
+    num_str, unit_str = re.search(f'Jmf-pris ([,\d]*) (kr/kg|kr/st|kr/l)', price_text, re.IGNORECASE).groups()
     price_per_g= None
     price_per_qty = None
     price_per_ml = None
@@ -120,7 +169,7 @@ def extract_data_from_food_img(driver, data, food_img):
         if not (('milliliter' in nutrition_table_header_text) or ('gram' in nutrition_table_header_text)):
             raise Exception("Nutritional units are neither in ml or g.")
         nutrition_table_body = driver.find_element(By.CSS_SELECTOR, "tbody")
-        match = re.findall(r'\n(fett|kolhydrat|protein)[\s<]*([.\d]+)', nutrition_table_body.text)
+        match = re.findall(r'\n(fett|kolhydrat|protein)[\s<]*([.\d]+)', nutrition_table_body.text, re.IGNORECASE)
         # Turn match into a dictionary
         d = {}
         for item in match:
@@ -148,7 +197,7 @@ def extract_data_from_page(driver, data, url):
     log(f"Entering {url}...", 0)
     driver.get(url)
     # Get number of items
-    n_items = int(re.search(r"\d+", driver.find_element(By.CSS_SELECTOR, "p.Textstyles__StyledText-sc-3u2veo-0.iEVqfZ").text).group())
+    n_items = int(re.search(r"\d+", driver.find_element(By.CSS_SELECTOR, "p.Textstyles__StyledText-sc-3u2veo-0.iEVqfZ").text, re.IGNORECASE).group())
     counter = 1
     # Load all items
     try:
@@ -166,7 +215,7 @@ def extract_data_from_page(driver, data, url):
         try:
             # pdb.set_trace()
             items_loaded_text = driver.find_element(By.CSS_SELECTOR, "p.Textstyles__StyledText-sc-3u2veo-0.jWLQxR.LoadMore__Info-sc-16fjaj7-2.hnbkdF").text
-            match = re.search(r"Visar ([\d]+) av ([\d]+)", items_loaded_text)
+            match = re.search(r"Visar ([\d]+) av ([\d]+)", items_loaded_text, re.IGNORECASE)
             num1, num2 = map(int, match.groups())
             log(f"Loaded {num1} out of {num2} items...", 1)
             load_button = driver.find_element(By.CSS_SELECTOR, ".Buttonstyles__StyledButton-sc-1g4oxwr-0.bXXAMk.LoadMore__LoadMoreBtn-sc-16fjaj7-3.bnbvpm")
