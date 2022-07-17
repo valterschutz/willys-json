@@ -11,24 +11,24 @@ from selenium.webdriver.common.by import By
 # TODO: nutritional table sometimes changes
 
 PAGE_LIMIT = None  # Either a number, None or False
-COOKIE_WAIT_TIME = 5  # First time when cookies load
-DEFAULT_WAIT_TIME = 1  # Each time a button is clicked
+COOKIE_WAIT_TIME = 15  # First time when cookies load
+DEFAULT_WAIT_TIME = 2  # Each time a button is clicked
 G_PER_EGG = 50
 OUTPUT_FILE_NAME = 'data.json'
-URLS = [
-    "https://www.willys.se/sortiment/kott-chark-och-fagel/fagel"
-]
 # URLS = [
-#     "https://www.willys.se/sortiment/mejeri-ost-och-agg",
-#     "https://www.willys.se/sortiment/kott-chark-och-fagel",
-#     "https://www.willys.se/sortiment/skafferi",
-#     "https://www.willys.se/sortiment/brod-och-kakor",
-#     "https://www.willys.se/sortiment/fryst",
-#     "https://www.willys.se/sortiment/fisk-och-skaldjur",
-#     "https://www.willys.se/sortiment/vegetariskt",
-#     "https://www.willys.se/sortiment/glass-godis-och-snacks",
-#     "https://www.willys.se/sortiment/fardigmat"
+#     "https://www.willys.se/sortiment/kott-chark-och-fagel/fagel"
 # ]
+URLS = [
+    "https://www.willys.se/sortiment/mejeri-ost-och-agg",
+    "https://www.willys.se/sortiment/kott-chark-och-fagel",
+    "https://www.willys.se/sortiment/skafferi",
+    "https://www.willys.se/sortiment/brod-och-kakor",
+    "https://www.willys.se/sortiment/fryst",
+    "https://www.willys.se/sortiment/fisk-och-skaldjur",
+    "https://www.willys.se/sortiment/vegetariskt",
+    "https://www.willys.se/sortiment/glass-godis-och-snacks",
+    "https://www.willys.se/sortiment/fardigmat"
+]
 
 def log(msg, indent):
     print(f"[{strftime('%X')}]: {'    ' * indent}{msg}")
@@ -188,7 +188,7 @@ def extract_data_from_page(driver, data, url):
 
 
 c = Options()
-# c.add_argument("--headless")
+c.add_argument("--headless")
 # driver = webdriver.Chrome(options = c)
 driver = webdriver.Firefox(options = c)
 driver.get("https://www.willys.se")
