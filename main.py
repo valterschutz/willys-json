@@ -1,7 +1,7 @@
 import pdb
 import re
 import json
-from time import sleep
+from time import sleep, strftime
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
@@ -26,6 +26,9 @@ URLS = [
     "https://www.willys.se/sortiment/fardigmat"
 ]
 
+def log(msg, indent):
+    print(f"{'  ' * indent}[{strftime('%X')}]: {msg}")
+
 def do_until_possible(f):
     # Execute function f until it does not fail
     working = False
@@ -46,7 +49,7 @@ def extract_data_from_food_img(driver, data, food_img):
         name = driver.find_element(By.CSS_SELECTOR, ".Headingstyles__StyledH2-sc-r7tfy8-1.cJhDBd").text
         return name
     name = do_until_possible(temp_f)
-    print(f"Gathering data for \"{name}\"")
+    log(f"Gathering data for \"{name}\"", 0)
     brand = driver.find_element(By.CSS_SELECTOR, "a.Linkstyles__StyledLink-sc-blur7a-0.epxKYt.ProductDetailsstyles__StyledProductDetailsManufacturerLink-sc-1gianr0-21.fpLVjo").text
 
     # Process subname
@@ -114,9 +117,9 @@ def extract_data_from_food_img(driver, data, food_img):
         for item in match:
             d[item[0]] = float(item[1].replace(',', '.')) / 100
         macros_per_g = d
-        print('  Found nutritional value.')
+        log('Found nutritional value.', 1)
     except Exception as e:
-        print(f'  Error while parsing nutrition: {e}')
+        log(f'Error while parsing nutrition: {e}', 1)
         macros_per_g = None
 
     data[f"{name} - {subname}"] = {
@@ -133,14 +136,14 @@ def extract_data_from_food_img(driver, data, food_img):
     return data
 
 def extract_data_from_page(driver, data, url):
-    print(f"Entering {url}...")
+    log(f"Entering {url}...", 0)
     driver.get(url)
     # Load all items
     load_button = driver.find_element(By.CSS_SELECTOR, ".Buttonstyles__StyledButton-sc-1g4oxwr-0.bXXAMk.LoadMore__LoadMoreBtn-sc-16fjaj7-3.bnbvpm")
     loading_items = True
     page = 0
     while loading_items:
-        print("Loading more items...")
+        log("Loading more items...", 0)
         load_button.click()
         sleep(DEFAULT_WAIT_TIME)
         page += 1
@@ -151,13 +154,13 @@ def extract_data_from_page(driver, data, url):
         if PAGE_LIMIT and page >= PAGE_LIMIT:
             loading_items = False
 
-    print("Loaded all items!")
+    log("Loaded all items!", 0)
 
     food_imgs = driver.find_elements(By.CSS_SELECTOR,".Product__ImageWrapper-sc-e8fauy-0.OJXsI")
     # pdb.set_trace()
     for food_img in food_imgs:
         data = extract_data_from_food_img(driver, data, food_img)
-    print(f"Exiting {url}...")
+    log(f"Exiting {url}...", 0)
     return data
 
 
@@ -175,11 +178,11 @@ for url in URLS:
     data = extract_data_from_page(driver, data, url)
 driver.close()
 
-print("Converting data to json...")
+log("Converting data to json...", 0)
 final = json.dumps(data, indent=2)
 
-print(f"Writing data to {OUTPUT_FILE_NAME}...")
+log(f"Writing data to {OUTPUT_FILE_NAME}...", 0)
 f = open(OUTPUT_FILE_NAME, "w")
 f.write(final)
 f.close()
-print("Finished!")
+log("Finished!", 0)
