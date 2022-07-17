@@ -143,22 +143,27 @@ def extract_data_from_food_img(driver, data, food_img):
         log(f"Could not get weight, quantity or volume from {subname}", 1)
 
     # Process price
-    price_text = driver.find_element(By.CSS_SELECTOR, ".Textstyles__StyledText-sc-3u2veo-0.kIqpfh").text
-    num_str, unit_str = re.search(f'Jmf-pris ([,\d]*) (kr/kg|kr/st|kr/l)', price_text, re.IGNORECASE).groups()
-    price_per_g= None
-    price_per_qty = None
-    price_per_ml = None
-    if unit_str == 'kr/kg':
-        price_per_g = float(num_str.replace(',', '.')) / 1000
-    elif unit_str == 'kr/st':
-        if "ägg" in name.lower():
-            price_per_g = float(num_str.replace(',', '.')) / G_PER_EGG
-        price_per_qty = float(num_str.replace(',', '.'))
-    elif unit_str == 'kr/l':
-        price_per_ml = float(num_str.replace(',', '.')) / 1000
-        price_per_g = price_per_ml
-    else:
-        log(f"Price unit was neither weight or quantity in {price_text}", 1)
+    try:
+        price_text = driver.find_element(By.CSS_SELECTOR, ".Textstyles__StyledText-sc-3u2veo-0.kIqpfh").text
+        num_str, unit_str = re.search(f'Jmf-pris ([,\d]*) (kr/kg|kr/st|kr/l)', price_text, re.IGNORECASE).groups()
+        price_per_g= None
+        price_per_qty = None
+        price_per_ml = None
+        if unit_str == 'kr/kg':
+            price_per_g = float(num_str.replace(',', '.')) / 1000
+        elif unit_str == 'kr/st':
+            if "ägg" in name.lower():
+                price_per_g = float(num_str.replace(',', '.')) / G_PER_EGG
+            price_per_qty = float(num_str.replace(',', '.'))
+        elif unit_str == 'kr/l':
+            price_per_ml = float(num_str.replace(',', '.')) / 1000
+            price_per_g = price_per_ml
+        else:
+            log(f"Price unit was neither weight or quantity in {price_text}", 1)
+    except:
+        price_per_g= None
+        price_per_qty = None
+        price_per_ml = None
 
     # Try to get macros
     try:
