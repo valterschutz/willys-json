@@ -76,16 +76,16 @@ def extract_data_from_food_img(driver, data, food_img):
     elif unit_str == 'p':
         if "ägg" in name.lower():
             weight_in_g = float(num_str) * G_PER_EGG
-        qty = int(num_str)
+        qty = float(num_str)
     # For liquids, assume 1g per ml
     elif unit_str == 'ml':
-        volume_in_ml = int(num_str)
+        volume_in_ml = float(num_str)
         weight_in_g = volume_in_ml
     elif unit_str == 'dl':
-        volume_in_ml = int(num_str) * 100
+        volume_in_ml = float(num_str) * 100
         weight_in_g = volume_in_ml * 100
     elif unit_str == 'l':
-        volume_in_ml = int(num_str) * 1000
+        volume_in_ml = float(num_str) * 1000
         weight_in_g = volume_in_ml * 1000
     else:
         log(f"Could not get weight, quantity or volume from {subname}", 1)
