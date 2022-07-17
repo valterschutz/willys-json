@@ -174,7 +174,7 @@ def extract_data_from_food_img(driver, data, food_img):
         nutrition_table_header_text = driver.find_element(By.CSS_SELECTOR, "thead").text
         # Units given in the table always seem to be in g,
         # this is just a sanity check
-        if not (('milliliter' in nutrition_table_header_text) or ('gram' in nutrition_table_header_text)):
+        if not (('milliliter' in nutrition_table_header_text.lower()) or ('gram' in nutrition_table_header_text.lower())):
             raise Exception("Nutritional units are neither in ml or g.")
         nutrition_table_body = driver.find_element(By.CSS_SELECTOR, "tbody")
         match = re.findall(r'\n(fett|kolhydrat|protein)[\s<]*([.\d]+)', nutrition_table_body.text, re.IGNORECASE)
