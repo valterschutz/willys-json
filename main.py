@@ -11,8 +11,8 @@ from selenium.webdriver.common.by import By
 # TODO: nutritional table sometimes changes
 
 PAGE_LIMIT = None  # Either a number, None or False
-COOKIE_WAIT_TIME = 15  # First time when cookies load
-DEFAULT_WAIT_TIME = 2  # Each time a button is clicked
+COOKIE_WAIT_TIME = 5  # First time when cookies load
+DEFAULT_WAIT_TIME = 0.5  # Each time a button is clicked
 G_PER_EGG = 50
 OUTPUT_FILE_NAME = 'data.json'
 # URLS = [
@@ -103,7 +103,10 @@ def extract_data_from_food_img(driver, data, food_img):
         return name
     name = do_until_possible(temp_f)
     log(f"Gathering data for \"{name}\"", 0)
-    brand = driver.find_element(By.CSS_SELECTOR, "a.Linkstyles__StyledLink-sc-blur7a-0.epxKYt.ProductDetailsstyles__StyledProductDetailsManufacturerLink-sc-1gianr0-21.fpLVjo").text
+    try:
+        brand = driver.find_element(By.CSS_SELECTOR, "a.Linkstyles__StyledLink-sc-blur7a-0.epxKYt.ProductDetailsstyles__StyledProductDetailsManufacturerLink-sc-1gianr0-21.fpLVjo").text
+    except:
+        brand = None
 
     # Process subname, exit if unit does not match
     subname = driver.find_element(By.CSS_SELECTOR, "span.ProductDetailsstyles__StyledProductDetailsManufacturerVolume-sc-1gianr0-22.jlvnMx").text
