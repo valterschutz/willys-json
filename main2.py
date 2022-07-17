@@ -24,16 +24,16 @@ def parse_product_json(json_data):
     d = {}
     try:
         d["name"] = json_data["name"]
-        d["comparePrice"] = float(re.search(r"[\d,]+", json_data["comparePrice"], re.IGNORECASE).group().replace(',', '.'))
+        d["comparePrice"] = float(re.search(r"[\d, ]+", json_data["comparePrice"], re.IGNORECASE).group().replace(',', '.').replace(' ', ''))
         d["comparePriceUnit"] = json_data["comparePriceUnit"]
         d["displayVolume"] = json_data["displayVolume"]
         for nutritionFact in json_data["nutritionsFactList"]:
             if nutritionFact["typeCode"] == "fett":
-                d["fats"] = nutritionFact["value"]
+                d["fats"] = float(nutritionFact["value"])
             elif nutritionFact["typeCode"] == "kolhydrat":
-                d["carbs"] = nutritionFact["value"]
+                d["carbs"] = float(nutritionFact["value"])
             elif nutritionFact["typeCode"] == "protein":
-                d["protein"] = nutritionFact["value"]
+                d["protein"] = float(nutritionFact["value"])
         return d
     except Exception as e:
         log(e, 1)
