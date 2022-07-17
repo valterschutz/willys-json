@@ -3,6 +3,7 @@ import re
 import json
 from time import sleep
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
@@ -159,7 +160,10 @@ def extract_data_from_page(driver, data, url):
     print(f"Exiting {url}...")
     return data
 
-driver = webdriver.Chrome()
+
+c = Options()
+c.add_argument("--headless")
+driver = webdriver.Chrome(options = c)
 driver.get("https://www.willys.se")
 sleep(COOKIE_WAIT_TIME)
 cookies_button = driver.find_element(By.CSS_SELECTOR, "#onetrust-reject-all-handler")
