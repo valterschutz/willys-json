@@ -12,7 +12,7 @@ from selenium.webdriver.common.by import By
 
 PAGE_LIMIT = None  # Either a number, None or False
 COOKIE_WAIT_TIME = 5  # First time when cookies load
-DEFAULT_WAIT_TIME = 0.5  # Each time a button is clicked
+DEFAULT_WAIT_TIME = 1  # Each time a button is clicked
 G_PER_EGG = 50
 OUTPUT_FILE_NAME = 'data.json'
 # URLS = [
@@ -97,11 +97,7 @@ def do_until_possible(f):
 def extract_data_from_food_img(driver, data, food_img):
     food_img.click()
     sleep(DEFAULT_WAIT_TIME)
-    # This looks really bad...
-    def temp_f():
-        name = driver.find_element(By.CSS_SELECTOR, ".Headingstyles__StyledH2-sc-r7tfy8-1.cJhDBd").text
-        return name
-    name = do_until_possible(temp_f)
+    name = driver.find_element(By.CSS_SELECTOR, ".Headingstyles__StyledH2-sc-r7tfy8-1.cJhDBd").text
     log(f"Gathering data for \"{name}\"", 0)
     try:
         brand = driver.find_element(By.CSS_SELECTOR, "a.Linkstyles__StyledLink-sc-blur7a-0.epxKYt.ProductDetailsstyles__StyledProductDetailsManufacturerLink-sc-1gianr0-21.fpLVjo").text
@@ -110,7 +106,7 @@ def extract_data_from_food_img(driver, data, food_img):
 
     # Process subname, exit if unit does not match
     subname = driver.find_element(By.CSS_SELECTOR, "span.ProductDetailsstyles__StyledProductDetailsManufacturerVolume-sc-1gianr0-22.jlvnMx").text
-    match = re.search(r'([,\d]+)\s+(g|kg|p|ml|dl|l)', subname, re.IGNORECASE)
+    match = re.search(r'([,\d]+)\s*(g|kg|p|ml|dl|l)', subname, re.IGNORECASE)
     if match:
         num_str, unit_str = match.groups()
     else:
