@@ -1,3 +1,5 @@
+import json
+import sys
 import re
 import requests
 from time import strftime
@@ -48,9 +50,12 @@ for category_url in URLS:
         code = result["code"]
         url = "https://www.willys.se/axfood/rest/p/X".replace("X", code)
         request = requests.get(url)
-        json_data = request.json()
-        parsed_json = parse_product_json(json_data)
-        all_products.append(parsed_json)
+        try:
+            json_data = request.json()
+            parsed_json = parse_product_json(json_data)
+            all_products.append(parsed_json)
+        except Exception as e:
+            log(e)
 
 json_str = json.dumps(all_products)
 f = open(sys.argv[1], "w")
