@@ -3,7 +3,8 @@ import re
 import json
 from time import sleep, strftime
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+# from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
@@ -15,19 +16,22 @@ DEFAULT_WAIT_TIME = 1  # Each time a button is clicked
 G_PER_EGG = 50
 OUTPUT_FILE_NAME = 'data.json'
 URLS = [
-    "https://www.willys.se/sortiment/mejeri-ost-och-agg",
-    "https://www.willys.se/sortiment/kott-chark-och-fagel",
-    "https://www.willys.se/sortiment/skafferi",
-    "https://www.willys.se/sortiment/brod-och-kakor",
-    "https://www.willys.se/sortiment/fryst",
-    "https://www.willys.se/sortiment/fisk-och-skaldjur",
-    "https://www.willys.se/sortiment/vegetariskt",
-    "https://www.willys.se/sortiment/glass-godis-och-snacks",
-    "https://www.willys.se/sortiment/fardigmat"
+    "https://www.willys.se/sortiment/kott-chark-och-fagel/fagel"
 ]
+# URLS = [
+#     "https://www.willys.se/sortiment/mejeri-ost-och-agg",
+#     "https://www.willys.se/sortiment/kott-chark-och-fagel",
+#     "https://www.willys.se/sortiment/skafferi",
+#     "https://www.willys.se/sortiment/brod-och-kakor",
+#     "https://www.willys.se/sortiment/fryst",
+#     "https://www.willys.se/sortiment/fisk-och-skaldjur",
+#     "https://www.willys.se/sortiment/vegetariskt",
+#     "https://www.willys.se/sortiment/glass-godis-och-snacks",
+#     "https://www.willys.se/sortiment/fardigmat"
+# ]
 
 def log(msg, indent):
-    print(f"{'  ' * indent}[{strftime('%X')}]: {msg}")
+    print(f"[{strftime('%X')}]: {'    ' * indent}{msg}")
 
 def do_until_possible(f):
     # Execute function f until it does not fail
@@ -52,9 +56,15 @@ def extract_data_from_food_img(driver, data, food_img):
     log(f"Gathering data for \"{name}\"", 0)
     brand = driver.find_element(By.CSS_SELECTOR, "a.Linkstyles__StyledLink-sc-blur7a-0.epxKYt.ProductDetailsstyles__StyledProductDetailsManufacturerLink-sc-1gianr0-21.fpLVjo").text
 
-    # Process subname
+    # Process subname, exit if unit does not match
     subname = driver.find_element(By.CSS_SELECTOR, "span.ProductDetailsstyles__StyledProductDetailsManufacturerVolume-sc-1gianr0-22.jlvnMx").text
-    num_str, unit_str = re.search(r'([,\d]+)(g|kg|p|ml|dl|l)', subname).groups()
+    match = re.search(r'([,\d]+)(g|kg|p|ml|dl|l)', subname)
+    if match:
+        num_str, unit_str = match.groups()
+    else:
+        log(f"Unexpected unit in subname {subname}", 1)
+        driver.back()
+        return data
     weight_in_g = None
     qty = None
     volume_in_ml = None
@@ -78,7 +88,7 @@ def extract_data_from_food_img(driver, data, food_img):
         volume_in_ml = int(num_str) * 1000
         weight_in_g = volume_in_ml * 1000
     else:
-        raise Exception("Could not get weight, quantity or volume from subname")
+        log(f"Could not get weight, quantity or volume from {subname}", 1)
 
     # Process price
     price_text = driver.find_element(By.CSS_SELECTOR, ".Textstyles__StyledText-sc-3u2veo-0.kIqpfh").text
@@ -96,10 +106,9 @@ def extract_data_from_food_img(driver, data, food_img):
         price_per_ml = float(num_str.replace(',', '.')) / 1000
         price_per_g = price_per_ml
     else:
-        raise Exception("Price unit was neither weight or quantity")
+        log(f"Price unit was neither weight or quantity in {price_text}", 1)
 
     # Try to get macros
-    # TODO: improve this
     try:
         # pdb.set_trace()
         show_more_button = driver.find_element(By.CSS_SELECTOR, "button.Buttonstyles__StyledButton-sc-1g4oxwr-0.hVCRFK.ExpandableContainerstyles__StyledExandableContainerButton-sc-1ywlidl-1.jyNfOr")
@@ -138,16 +147,28 @@ def extract_data_from_food_img(driver, data, food_img):
 def extract_data_from_page(driver, data, url):
     log(f"Entering {url}...", 0)
     driver.get(url)
+    # Get number of items
+    n_items = int(re.search(r"\d+", driver.find_element(By.CSS_SELECTOR, "p.Textstyles__StyledText-sc-3u2veo-0.iEVqfZ").text).group())
+    counter = 1
     # Load all items
-    load_button = driver.find_element(By.CSS_SELECTOR, ".Buttonstyles__StyledButton-sc-1g4oxwr-0.bXXAMk.LoadMore__LoadMoreBtn-sc-16fjaj7-3.bnbvpm")
-    loading_items = True
-    page = 0
+    try:
+        load_button = driver.find_element(By.CSS_SELECTOR, ".Buttonstyles__StyledButton-sc-1g4oxwr-0.bXXAMk.LoadMore__LoadMoreBtn-sc-16fjaj7-3.bnbvpm")
+    except:
+        loading_items = False
+    else:
+        loading_items = True
+        page = 0
     while loading_items:
         log("Loading more items...", 0)
         load_button.click()
         sleep(DEFAULT_WAIT_TIME)
         page += 1
         try:
+            # pdb.set_trace()
+            items_loaded_text = driver.find_element(By.CSS_SELECTOR, "p.Textstyles__StyledText-sc-3u2veo-0.jWLQxR.LoadMore__Info-sc-16fjaj7-2.hnbkdF").text
+            match = re.search(r"Visar ([\d]+) av ([\d]+)", items_loaded_text)
+            num1, num2 = map(int, match.groups())
+            log(f"Loaded {num1} out of {num2} items...", 1)
             load_button = driver.find_element(By.CSS_SELECTOR, ".Buttonstyles__StyledButton-sc-1g4oxwr-0.bXXAMk.LoadMore__LoadMoreBtn-sc-16fjaj7-3.bnbvpm")
         except:
             loading_items = False
@@ -159,15 +180,19 @@ def extract_data_from_page(driver, data, url):
     food_imgs = driver.find_elements(By.CSS_SELECTOR,".Product__ImageWrapper-sc-e8fauy-0.OJXsI")
     # pdb.set_trace()
     for food_img in food_imgs:
+        log(f"---{counter}/{n_items}---", 0)
         data = extract_data_from_food_img(driver, data, food_img)
+        counter += 1
     log(f"Exiting {url}...", 0)
     return data
 
 
 c = Options()
-c.add_argument("--headless")
-driver = webdriver.Chrome(options = c)
+# c.add_argument("--headless")
+# driver = webdriver.Chrome(options = c)
+driver = webdriver.Firefox(options = c)
 driver.get("https://www.willys.se")
+log("Waiting for cookies prompt...", 0)
 sleep(COOKIE_WAIT_TIME)
 cookies_button = driver.find_element(By.CSS_SELECTOR, "#onetrust-reject-all-handler")
 cookies_button.click()

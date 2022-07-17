@@ -1,88 +1,4 @@
 {
-  "Prinskorv - GARANT, 900g": {
-    "price_per_g": 0.08322,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "GARANT",
-    "weight_in_g": 900.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.21,
-      "kolhydrat": 0.048,
-      "protein": 0.11
-    }
-  },
-  "Fuet Lufttorkad Salami - GARANT, 170g": {
-    "price_per_g": 0.21118,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "GARANT",
-    "weight_in_g": 170.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.34,
-      "kolhydrat": 0.017,
-      "protein": 0.27
-    }
-  },
-  "K\u00f6ttbullar Sm\u00e5 Delikatess Frysta - FELIX, 600g": {
-    "price_per_g": 0.0965,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "FELIX",
-    "weight_in_g": 600.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.17,
-      "kolhydrat": 0.07,
-      "protein": 0.15
-    }
-  },
-  "Tapas Selection - GARANT, 120g": {
-    "price_per_g": 0.3825,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "GARANT",
-    "weight_in_g": 120.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.14,
-      "kolhydrat": 0.009000000000000001,
-      "protein": 0.3
-    }
-  },
-  "Fl\u00e4skytterfil\u00e9 - NYBERGS DELI, ca: 1kg": {
-    "price_per_g": 0.0849,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "NYBERGS DELI",
-    "weight_in_g": 1000.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.04,
-      "kolhydrat": 0.02,
-      "protein": 0.17
-    }
-  },
-  "Fl\u00e4skkarr\u00e9 med Ben Grillkryddad Sverige - GARANT, ca: 1.5kg": {
-    "price_per_g": 0.0979,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "GARANT",
-    "weight_in_g": 5000.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.11,
-      "kolhydrat": 0.012,
-      "protein": 0.19
-    }
-  },
   "Kycklingfil\u00e9 Br\u00f6stfil\u00e9 Sverige - GARANT, ca: 850g": {
     "price_per_g": 0.155,
     "price_per_qty": null,
@@ -109,62 +25,6 @@
       "fett": 0.09,
       "kolhydrat": 0.005,
       "protein": 0.19
-    }
-  },
-  "Kalkonbr\u00f6st Bastur\u00f6kt Skivad - L\u00d6NNEBERGA, 120g": {
-    "price_per_g": 0.26583,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "L\u00d6NNEBERGA",
-    "weight_in_g": 120.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.009000000000000001,
-      "kolhydrat": 0.03,
-      "protein": 0.2
-    }
-  },
-  "Kyckling Grillad Skivad - L\u00d6NNEBERGA, 120g": {
-    "price_per_g": 0.26583,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "L\u00d6NNEBERGA",
-    "weight_in_g": 120.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.019,
-      "kolhydrat": 0.02,
-      "protein": 0.22
-    }
-  },
-  "Kyckling Extrar\u00f6kt Skivad - L\u00d6NNEBERGA, 120g": {
-    "price_per_g": 0.26583,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "L\u00d6NNEBERGA",
-    "weight_in_g": 120.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.019,
-      "kolhydrat": 0.015,
-      "protein": 0.23
-    }
-  },
-  "K\u00f6ttbullar Sverige - GARANT, 1kg": {
-    "price_per_g": 0.053899999999999997,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "GARANT",
-    "weight_in_g": 1000.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.18,
-      "kolhydrat": 0.08,
-      "protein": 0.13
     }
   },
   "Kycklingspett Paprika \u00d6rter - L\u00d6NNEBERGA, 480g": {
@@ -223,340 +83,1357 @@
       "protein": 0.19
     }
   },
-  "Skinka Bastur\u00f6kt Skivad - L\u00d6NNEBERGA, 120g": {
-    "price_per_g": 0.2325,
+  "Kyckling Ben Frysta - GARANT, 1kg": {
+    "price_per_g": 0.0359,
     "price_per_qty": null,
     "price_per_ml": null,
-    "brand": "L\u00d6NNEBERGA",
-    "weight_in_g": 120.0,
+    "brand": "GARANT",
+    "weight_in_g": 1000.0,
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 0.027999999999999997,
-      "kolhydrat": 0.025,
+      "fett": 0.09,
+      "kolhydrat": 0.005,
       "protein": 0.19
     }
   },
-  "Skinka Extrar\u00f6kt Skivad - L\u00d6NNEBERGA, 120g": {
-    "price_per_g": 0.2325,
+  "Kyckling Vingar Frysta - GARANT, 1kg": {
+    "price_per_g": 0.0359,
     "price_per_qty": null,
     "price_per_ml": null,
-    "brand": "L\u00d6NNEBERGA",
-    "weight_in_g": 120.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.027999999999999997,
-      "kolhydrat": 0.025,
-      "protein": 0.19
-    }
-  },
-  "Skinka Ugnsrostad - L\u00d6NNEBERGA, 120g": {
-    "price_per_g": 0.2325,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "L\u00d6NNEBERGA",
-    "weight_in_g": 120.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.027999999999999997,
-      "kolhydrat": 0.025,
-      "protein": 0.19
-    }
-  },
-  "Kokt Skinka Skivad - L\u00d6NNEBERGA, 120g": {
-    "price_per_g": 0.2325,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "L\u00d6NNEBERGA",
-    "weight_in_g": 120.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.027999999999999997,
-      "kolhydrat": 0.025,
-      "protein": 0.19
-    }
-  },
-  "Skinka Bj\u00f6rksp\u00e5nsr\u00f6kt Skivad - L\u00d6NNEBERGA, 120g": {
-    "price_per_g": 0.2325,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "L\u00d6NNEBERGA",
-    "weight_in_g": 120.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.028999999999999998,
-      "kolhydrat": 0.025,
-      "protein": 0.19
-    }
-  },
-  "Lind\u00f6salami Peppar Skivad - L\u00d6NNEBERGA, 120g": {
-    "price_per_g": 0.2325,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "L\u00d6NNEBERGA",
-    "weight_in_g": 120.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.38,
-      "kolhydrat": 0.02,
-      "protein": 0.23
-    }
-  },
-  "Cabanossy - G\u00d8L, 450g": {
-    "price_per_g": 0.10867,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "G\u00d8L",
-    "weight_in_g": 450.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.23,
-      "kolhydrat": 0.027999999999999997,
-      "protein": 0.13
-    }
-  },
-  "Ostfrankfurter - G\u00d8L, 335g": {
-    "price_per_g": 0.14,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "G\u00d8L",
-    "weight_in_g": 335.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.23,
-      "kolhydrat": 0.035,
-      "protein": 0.15
-    }
-  },
-  "Korv Cheddar & Chili - G\u00d8L, 335g": {
-    "price_per_g": 0.14,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "G\u00d8L",
-    "weight_in_g": 335.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.23,
-      "kolhydrat": 0.038,
-      "protein": 0.15
-    }
-  },
-  "Peppargrillare Kryddkorv - G\u00d6L, 450g": {
-    "price_per_g": 0.10643999999999999,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "G\u00d6L",
-    "weight_in_g": 450.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.25,
-      "kolhydrat": 0.031,
-      "protein": 0.14
-    }
-  },
-  "Cabanossi \u00d6lkorv - RIDDERHEIMS, 50g": {
-    "price_per_g": 0.378,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "RIDDERHEIMS",
-    "weight_in_g": 50.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.36,
-      "kolhydrat": 0.02,
-      "protein": 0.27
-    }
-  },
-  "\u00d6lkorv Hot Amigo - RIDDERHEIMS, 50g": {
-    "price_per_g": 0.378,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "RIDDERHEIMS",
-    "weight_in_g": 50.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.36,
-      "kolhydrat": 0.035,
-      "protein": 0.27
-    }
-  },
-  "Caramba \u00d6lkorv - RIDDERHEIMS, 50g": {
-    "price_per_g": 0.378,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "RIDDERHEIMS",
-    "weight_in_g": 50.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.36,
-      "kolhydrat": 0.03,
-      "protein": 0.27
-    }
-  },
-  "Joddlarkorv \u00d6lkorv - RIDDERHEIMS, 50g": {
-    "price_per_g": 0.378,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "RIDDERHEIMS",
-    "weight_in_g": 50.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.36,
-      "kolhydrat": 0.03,
-      "protein": 0.27
-    }
-  },
-  "Paprika F\u00e4rskostfylld - MONTE CASTELLO, 120g": {
-    "price_per_g": 0.24083000000000002,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "MONTE CASTELLO",
-    "weight_in_g": 120.0,
+    "brand": "GARANT",
+    "weight_in_g": 1000.0,
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
       "fett": 0.12,
-      "kolhydrat": 0.17,
-      "protein": 0.038
+      "kolhydrat": 0.005,
+      "protein": 0.19
     }
   },
-  "Oliver med Chili - MONTE CASTELLO, 140g": {
-    "price_per_g": 0.135,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "MONTE CASTELLO",
-    "weight_in_g": 140.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.157,
-      "kolhydrat": 0.003,
-      "protein": 0.009000000000000001
-    }
-  },
-  "Vitl\u00f6ksoliver - MONTE CASTELLO, 150g": {
-    "price_per_g": 0.11267,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "MONTE CASTELLO",
-    "weight_in_g": 150.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.185,
-      "kolhydrat": 0.01,
-      "protein": 0.013000000000000001
-    }
-  },
-  "Tomater Soltorkade - MONTE CASTELLO, 120g": {
-    "price_per_g": 0.1575,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "MONTE CASTELLO",
-    "weight_in_g": 120.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.27,
-      "kolhydrat": 0.175,
-      "protein": 0.066
-    }
-  },
-  "Mammutoliver - MONTE CASTELLO, 150g": {
-    "price_per_g": 0.15267,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "MONTE CASTELLO",
-    "weight_in_g": 150.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.13699999999999998,
-      "kolhydrat": 0.004,
-      "protein": 0.009000000000000001
-    }
-  },
-  "Oliver Vitost - MONTE CASTELLO, 150g": {
-    "price_per_g": 0.11267,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "MONTE CASTELLO",
-    "weight_in_g": 150.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.22,
-      "kolhydrat": 0.019,
-      "protein": 0.037000000000000005
-    }
-  },
-  "Vitl\u00f6ksklyftor - MONTE CASTELLO, 150g": {
-    "price_per_g": 0.126,
-    "price_per_qty": null,
-    "price_per_ml": null,
-    "brand": "MONTE CASTELLO",
-    "weight_in_g": 150.0,
-    "volume_in_ml": null,
-    "qty": null,
-    "macros_per_g": {
-      "fett": 0.026000000000000002,
-      "kolhydrat": 0.14,
-      "protein": 0.075
-    }
-  },
-  "Salsicciakorv F\u00e4rsk Sverige - GARANT, 350g": {
-    "price_per_g": 0.09971,
+  "Kyckling L\u00e5r Frysta - GARANT, 1kg": {
+    "price_per_g": 0.0359,
     "price_per_qty": null,
     "price_per_ml": null,
     "brand": "GARANT",
+    "weight_in_g": 1000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.14,
+      "kolhydrat": 0.005,
+      "protein": 0.19
+    }
+  },
+  "Kyckling Fil\u00e9 Svensk Fryst - GARANT, 1kg": {
+    "price_per_g": 0.09490000000000001,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": 1000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.02,
+      "kolhydrat": 0.005,
+      "protein": 0.21
+    }
+  },
+  "Innerfil\u00e9 av Svensk Kyckling Fryst - GARANT, 700g": {
+    "price_per_g": 0.09129000000000001,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": 700.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.02,
+      "kolhydrat": 0.005,
+      "protein": 0.21
+    }
+  },
+  "Majskyckling Fil\u00e9 Frysta - GARANT, 1kg": {
+    "price_per_g": 0.149,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": 1000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.02,
+      "kolhydrat": 0.005,
+      "protein": 0.21
+    }
+  },
+  "Kyckling Klubba Fryst - GARANT, 1kg": {
+    "price_per_g": 0.0359,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": 1000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.14,
+      "kolhydrat": 0.005,
+      "protein": 0.19
+    }
+  },
+  "Kyckling Br\u00f6stfil\u00e9 Sverige - ELDORADO, 900g": {
+    "price_per_g": 0.12778,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 900.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.02,
+      "kolhydrat": 0.005,
+      "protein": 0.21
+    }
+  },
+  "Kyckling L\u00e5rfil\u00e9 - ELDORADO, 900g": {
+    "price_per_g": 0.12111,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 900.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.081,
+      "kolhydrat": 0.005,
+      "protein": 0.17
+    }
+  },
+  "Kyckling Br\u00f6stfil\u00e9 Grillkryddad - ELDORADO, 800g": {
+    "price_per_g": 0.14375,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 800.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.012,
+      "kolhydrat": 0.013000000000000001,
+      "protein": 0.2
+    }
+  },
+  "Kyckling L\u00e5rfil\u00e9 Grillkryddad - ELDORADO, 800g": {
+    "price_per_g": 0.14375,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 800.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.057,
+      "kolhydrat": 0.017,
+      "protein": 0.17
+    }
+  },
+  "Majskyckling Hel Sverige - GARANT, ca: 1.3kg": {
+    "price_per_g": 0.0719,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": 3000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.12,
+      "kolhydrat": 0.005,
+      "protein": 0.18
+    }
+  },
+  "Kyckling Hel F\u00e4rsk Sverige - GARANT, ca: 1.35kg": {
+    "price_per_g": 0.052899999999999996,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": 35000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.12,
+      "kolhydrat": 0.005,
+      "protein": 0.18
+    }
+  },
+  "Majskyckling Br\u00f6stfil\u00e9 Sverige - GARANT, ca: 750g": {
+    "price_per_g": 0.165,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": 750.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.03,
+      "kolhydrat": 0.005,
+      "protein": 0.23
+    }
+  },
+  "Kycklingfil\u00e9 Strimlad - GARANT, 300g": {
+    "price_per_g": 0.15633000000000002,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": 300.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.01,
+      "kolhydrat": 0.005,
+      "protein": 0.23
+    }
+  },
+  "Kycklingben F\u00e4rska Sverige - GARANT, ca: 900g": {
+    "price_per_g": 0.052899999999999996,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": 900.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.09,
+      "kolhydrat": 0.005,
+      "protein": 0.19
+    }
+  },
+  "Kycklingklubba Sverige - GARANT, ca: 900g": {
+    "price_per_g": 0.0569,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GARANT",
+    "weight_in_g": 900.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.14,
+      "kolhydrat": 0.005,
+      "protein": 0.19
+    }
+  },
+  "Kyckling Klubba Fryst - ELDORADO, 2000g": {
+    "price_per_g": 0.02395,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 2000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.15,
+      "kolhydrat": 0.01,
+      "protein": 0.13
+    }
+  },
+  "Kyckling Fil\u00e9 Fryst - ELDORADO, 2000g": {
+    "price_per_g": 0.0595,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 2000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.015,
+      "kolhydrat": 0.01,
+      "protein": 0.19
+    }
+  },
+  "Kycklingfil\u00e9 Fryst - KRONF\u00c5GEL, 1kg": {
+    "price_per_g": 0.114,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KRONF\u00c5GEL",
+    "weight_in_g": 1000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.015,
+      "kolhydrat": 0.005,
+      "protein": 0.19
+    }
+  },
+  "Minutfil\u00e9 Fryst - KRONF\u00c5GEL, 650g": {
+    "price_per_g": 0.14908000000000002,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KRONF\u00c5GEL",
+    "weight_in_g": 650.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.02,
+      "kolhydrat": 0.005,
+      "protein": 0.23
+    }
+  },
+  "Kyckling Innerfil\u00e9 Fryst - KRONF\u00c5GEL, 700g": {
+    "price_per_g": 0.09272,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KRONF\u00c5GEL",
+    "weight_in_g": 700.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.01,
+      "kolhydrat": 0.005,
+      "protein": 0.24
+    }
+  },
+  "Kyckling Fil\u00e9 Fryst - ELDORADO, 900g": {
+    "price_per_g": 0.061,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 900.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.015,
+      "kolhydrat": 0.001,
+      "protein": 0.19
+    }
+  },
+  "Kyckling Innerfil\u00e9 Fryst - ELDORADO, 700g": {
+    "price_per_g": 0.06129,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 700.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.008,
+      "kolhydrat": 0.0,
+      "protein": 0.19
+    }
+  },
+  "Kycklingfil\u00e9 2-delad - ELDORADO, 800g": {
+    "price_per_g": 0.08113,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 800.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.015,
+      "kolhydrat": 0.0,
+      "protein": 0.18
+    }
+  },
+  "Kyckling L\u00e5rfil\u00e9 - ELDORADO, 700g": {
+    "price_per_g": 0.06414,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 700.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.07400000000000001,
+      "kolhydrat": 0.0,
+      "protein": 0.16
+    }
+  },
+  "K\u00f6ttbullar Kalkon Sm\u00e5 Frysta - INGELSTAKALKON, 400g": {
+    "price_per_g": 0.11975,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "INGELSTAKALKON",
+    "weight_in_g": 400.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.17,
+      "kolhydrat": 0.11,
+      "protein": 0.14
+    }
+  },
+  "Kyckling Br\u00f6stfil\u00e9 Sverige - GULDF\u00c5GELN, ca: 900g": {
+    "price_per_g": 0.179,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GULDF\u00c5GELN",
+    "weight_in_g": 900.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.03,
+      "kolhydrat": 0.005,
+      "protein": 0.23
+    }
+  },
+  "Grillfil\u00e8 Tv\u00e5delad Marinerad Sverige - GULDF\u00c5GELN, ca: 900g": {
+    "price_per_g": 0.185,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GULDF\u00c5GELN",
+    "weight_in_g": 900.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.03,
+      "kolhydrat": 0.005,
+      "protein": 0.21
+    }
+  },
+  "Kycklingfil\u00e9 Tv\u00e5delad Sverige - GULDF\u00c5GELN, ca: 750g": {
+    "price_per_g": 0.179,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GULDF\u00c5GELN",
+    "weight_in_g": 750.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.03,
+      "kolhydrat": 0.005,
+      "protein": 0.23
+    }
+  },
+  "Kycklingfil\u00e9 Tunnskivad Sverige - GULDF\u00c5GELN, ca: 700g": {
+    "price_per_g": 0.179,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GULDF\u00c5GELN",
+    "weight_in_g": 700.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.03,
+      "kolhydrat": 0.005,
+      "protein": 0.23
+    }
+  },
+  "Kycklingl\u00e5rfil Strimlad - GULDF\u00c5GELN, 600g": {
+    "price_per_g": 0.14317,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GULDF\u00c5GELN",
+    "weight_in_g": 600.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.09,
+      "kolhydrat": 0.005,
+      "protein": 0.19
+    }
+  },
+  "Kycklingkebab Fryst - ELDORADO, 700g": {
+    "price_per_g": 0.08557,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 700.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.051,
+      "kolhydrat": 0.049,
+      "protein": 0.17
+    }
+  },
+  "K\u00f6ttbullar Kyckling Frysta - ELDORADO, 1kg": {
+    "price_per_g": 0.0499,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 1000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.11,
+      "kolhydrat": 0.078,
+      "protein": 0.13
+    }
+  },
+  "Nuggets Kyckling Frysta - ELDORADO, 1kg": {
+    "price_per_g": 0.0415,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 1000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.099,
+      "kolhydrat": 0.17,
+      "protein": 0.11
+    }
+  },
+  "Chicken Nuggets Frysta - GULDF\u00c5GELN, 350g": {
+    "price_per_g": 0.11114,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GULDF\u00c5GELN",
     "weight_in_g": 350.0,
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
       "fett": 0.18,
-      "kolhydrat": 0.03,
-      "protein": 0.15
+      "kolhydrat": 0.14,
+      "protein": 0.12
     }
   },
-  "Chorizokorv F\u00e4rsk Sverige - GARANT, 350g": {
-    "price_per_g": 0.10257,
+  "Buffalo Wings Grillade Frysta - GULDF\u00c5GELN, 500g": {
+    "price_per_g": 0.0778,
     "price_per_qty": null,
     "price_per_ml": null,
-    "brand": "GARANT",
-    "weight_in_g": 350.0,
+    "brand": "GULDF\u00c5GELN",
+    "weight_in_g": 500.0,
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 0.19,
-      "kolhydrat": 0.015,
-      "protein": 0.15
+      "fett": 0.15,
+      "kolhydrat": 0.02,
+      "protein": 0.21
     }
   },
-  "F\u00e4rskkorv F\u00e4nk\u00e5l Citron - GARANT, 350g": {
+  "Chicken Kebab Fryst - GULDF\u00c5GELN, 500g": {
+    "price_per_g": 0.0778,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GULDF\u00c5GELN",
+    "weight_in_g": 500.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.18,
+      "kolhydrat": 0.03,
+      "protein": 0.14
+    }
+  },
+  "Drumsticks Chicken Bbq Fryst - GULDF\u00c5GELN, 500g": {
+    "price_per_g": 0.0778,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GULDF\u00c5GELN",
+    "weight_in_g": 500.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.1,
+      "kolhydrat": 0.03,
+      "protein": 0.21
+    }
+  },
+  "Chicken Drumsticks Grillade Frysta - GULDF\u00c5GELN, 500g": {
+    "price_per_g": 0.0778,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GULDF\u00c5GELN",
+    "weight_in_g": 500.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.1,
+      "kolhydrat": 0.03,
+      "protein": 0.21
+    }
+  },
+  "Chicken Nuggets Crispy Frysta - GULDF\u00c5GELN, 350g": {
     "price_per_g": 0.11114,
     "price_per_qty": null,
     "price_per_ml": null,
-    "brand": "GARANT",
+    "brand": "GULDF\u00c5GELN",
     "weight_in_g": 350.0,
     "volume_in_ml": null,
     "qty": null,
     "macros_per_g": {
-      "fett": 0.19,
-      "kolhydrat": 0.03,
+      "fett": 0.18,
+      "kolhydrat": 0.17,
+      "protein": 0.12
+    }
+  },
+  "Kyckling Taco Fryst - GULDF\u00c5GELN, 600g": {
+    "price_per_g": 0.14484,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GULDF\u00c5GELN",
+    "weight_in_g": 600.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.09,
+      "kolhydrat": 0.035,
+      "protein": 0.19
+    }
+  },
+  "Chicken Rings Frysta - GULDF\u00c5GELN, 350g": {
+    "price_per_g": 0.114,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GULDF\u00c5GELN",
+    "weight_in_g": 350.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.18,
+      "kolhydrat": 0.14,
+      "protein": 0.12
+    }
+  },
+  "Kyckling Schnitzel - GULDF\u00c5GELN, 370g": {
+    "price_per_g": 0.10514,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GULDF\u00c5GELN",
+    "weight_in_g": 370.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.18,
+      "kolhydrat": 0.14,
+      "protein": 0.12
+    }
+  },
+  "K\u00f6ttbullar av H\u00f6nsk\u00f6tt - GULDF\u00c5GELN, 450g": {
+    "price_per_g": 0.08867,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GULDF\u00c5GELN",
+    "weight_in_g": 450.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.14,
+      "kolhydrat": 0.09699999999999999,
+      "protein": 0.14
+    }
+  },
+  "Burgare Kyckling Crispy Frysta - GULDF\u00c5GELN, 760g": {
+    "price_per_g": 0.125,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GULDF\u00c5GELN",
+    "weight_in_g": 760.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.18,
+      "kolhydrat": 0.17,
+      "protein": 0.12
+    }
+  },
+  "Kyckling Br\u00f6stfil\u00e9 - L\u00d6NNEBERGA, 700g": {
+    "price_per_g": 0.16429,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "L\u00d6NNEBERGA",
+    "weight_in_g": 700.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.012,
+      "kolhydrat": 0.005,
+      "protein": 0.23
+    }
+  },
+  "Innerfil\u00e9 Tunna - L\u00d6NNEBERGA, 500g": {
+    "price_per_g": 0.1638,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "L\u00d6NNEBERGA",
+    "weight_in_g": 500.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.012,
+      "kolhydrat": 0.005,
+      "protein": 0.23
+    }
+  },
+  "Kycklingben - L\u00d6NNEBERGA, 720g": {
+    "price_per_g": 0.055420000000000004,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "L\u00d6NNEBERGA",
+    "weight_in_g": 720.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.055,
+      "kolhydrat": 0.005,
+      "protein": 0.17
+    }
+  },
+  "Kalkon Br\u00f6stfil\u00e9 Marinerad - INGELSTAKALKON, ca: 600g": {
+    "price_per_g": 0.169,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "INGELSTAKALKON",
+    "weight_in_g": 600.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.021,
+      "kolhydrat": 0.012,
+      "protein": 0.21
+    }
+  },
+  "Kalkonf\u00e4rs Fryst - INGELSTAKALKON, 500g": {
+    "price_per_g": 0.1118,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "INGELSTAKALKON",
+    "weight_in_g": 500.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.09,
+      "kolhydrat": 0.01,
+      "protein": 0.2
+    }
+  },
+  "Kalkonl\u00e5rfil\u00e9 Strimlad - INGELSTAKALKON, 450g": {
+    "price_per_g": 0.12422,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "INGELSTAKALKON",
+    "weight_in_g": 450.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.06,
+      "kolhydrat": 0.015,
+      "protein": 0.19
+    }
+  },
+  "Kyckling \u00d6verl\u00e5r - ELDORADO, 1,75kg": {
+    "price_per_g": 0.0268,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 1750.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.14,
+      "kolhydrat": 0.005,
+      "protein": 0.12
+    }
+  },
+  "Kyckling Burgare - ELDORADO, 10x90g": {
+    "price_per_g": 0.06655,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 90.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.13,
+      "protein": 0.13
+    }
+  },
+  "Kycklingsteak - KRONF\u00c5GEL, ca: 900g": {
+    "price_per_g": 0.099,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KRONF\u00c5GEL",
+    "weight_in_g": 900.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.13,
+      "kolhydrat": 0.005,
+      "protein": 0.18
+    }
+  },
+  "Kycklinglever Sverige - KRONF\u00c5GEL, 450g": {
+    "price_per_g": 0.05755,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KRONF\u00c5GEL",
+    "weight_in_g": 450.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.025,
+      "kolhydrat": 0.01,
+      "protein": 0.16
+    }
+  },
+  "Kycklinghj\u00e4rta Sverige - KRONF\u00c5GEL, 450g": {
+    "price_per_g": 0.05755,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KRONF\u00c5GEL",
+    "weight_in_g": 450.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.039,
+      "kolhydrat": 0.005,
+      "protein": 0.17
+    }
+  },
+  "Minutstrimlor Svensk - KRONF\u00c5GEL, ca: 550g": {
+    "price_per_g": 0.169,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KRONF\u00c5GEL",
+    "weight_in_g": 550.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.02,
+      "kolhydrat": 0.005,
+      "protein": 0.23
+    }
+  },
+  "Kycklingmage Sverige - KRONF\u00c5GEL, 450g": {
+    "price_per_g": 0.05755,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KRONF\u00c5GEL",
+    "weight_in_g": 450.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.02,
+      "kolhydrat": 0.005,
+      "protein": 0.17
+    }
+  },
+  "Kycklingbr\u00f6st Fil\u00e9 Import - ELDORADO, 400g": {
+    "price_per_g": 0.09975,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 400.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.017,
+      "kolhydrat": 0.0,
+      "protein": 0.22
+    }
+  },
+  "Kyckling L\u00e5rfil\u00e9 Halal Import - ELDORADO, 500g": {
+    "price_per_g": 0.0598,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 500.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.092,
+      "kolhydrat": 0.0,
+      "protein": 0.17
+    }
+  },
+  "Kyckling Innerfil\u00e9 Import - ELDORADO, 450g": {
+    "price_per_g": 0.06644,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 450.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.013000000000000001,
+      "kolhydrat": 0.0,
+      "protein": 0.23
+    }
+  },
+  "Kycklingvingar Import - ELDORADO, 600g": {
+    "price_per_g": 0.0415,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 600.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.094,
+      "kolhydrat": 0.0,
+      "protein": 0.18
+    }
+  },
+  "Kycklingben Import - ELDORADO, 550g": {
+    "price_per_g": 0.045270000000000005,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 550.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.013000000000000001,
+      "kolhydrat": 0.0,
+      "protein": 0.18
+    }
+  },
+  "Kycklingklubba Import - ELDORADO, 650g": {
+    "price_per_g": 0.038310000000000004,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 650.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.11,
+      "kolhydrat": 0.0,
+      "protein": 0.17
+    }
+  },
+  "Kycklingfil\u00e9er Tv\u00e5delade Frysta - GULDF\u00c5GELN, 700g": {
+    "price_per_g": 0.14856999999999998,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GULDF\u00c5GELN",
+    "weight_in_g": 700.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.02,
+      "kolhydrat": 0.005,
+      "protein": 0.21
+    }
+  },
+  "Kycklingpanna Stinas Original Fryst - KRONF\u00c5GEL, 1.1kg": {
+    "price_per_g": 0.06627,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KRONF\u00c5GEL",
+    "weight_in_g": 1000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.11,
+      "kolhydrat": 0.005,
+      "protein": 0.16
+    }
+  },
+  "Nuggets Kyckling Frysta - KRONF\u00c5GEL, 440g": {
+    "price_per_g": 0.14068,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KRONF\u00c5GEL",
+    "weight_in_g": 440.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.096,
+      "kolhydrat": 0.2,
+      "protein": 0.12
+    }
+  },
+  "Crispy Kycklingburgare Fryst - KRONF\u00c5GEL, 440g": {
+    "price_per_g": 0.14068,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KRONF\u00c5GEL",
+    "weight_in_g": 440.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.094,
+      "kolhydrat": 0.14,
+      "protein": 0.13
+    }
+  },
+  "Delifresh Kycklingburgare Frysta - KRONF\u00c5GEL, 400g": {
+    "price_per_g": 0.15475,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KRONF\u00c5GEL",
+    "weight_in_g": 400.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.078,
+      "kolhydrat": 0.028999999999999998,
+      "protein": 0.19
+    }
+  },
+  "Kyckling Sallads Grillad Frysta - KRONF\u00c5GEL, 600g": {
+    "price_per_g": 0.165,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KRONF\u00c5GEL",
+    "weight_in_g": 600.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.04,
+      "kolhydrat": 0.01,
+      "protein": 0.2
+    }
+  },
+  "Kycklingpinnar - KRONF\u00c5GEL, 400g": {
+    "price_per_g": 0.10975,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KRONF\u00c5GEL",
+    "weight_in_g": 400.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.12,
+      "kolhydrat": 0.19,
+      "protein": 0.12
+    }
+  },
+  "Kyckling Grillad Skivad 5mm Fryst - HAPPY CHEF, 450g": {
+    "price_per_g": 0.13755,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "HAPPY CHEF",
+    "weight_in_g": 450.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.012,
+      "kolhydrat": 0.032,
+      "protein": 0.267
+    }
+  },
+  "Kycklingfil\u00e9 Grillad T\u00e4rnad 12mm Fryst - HAPPY CHEF, 450g": {
+    "price_per_g": 0.13755,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "HAPPY CHEF",
+    "weight_in_g": 450.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.015,
+      "kolhydrat": 0.01,
+      "protein": 0.27
+    }
+  },
+  "Kycklinglever - ELDORADO, 500g": {
+    "price_per_g": 0.039799999999999995,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 500.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.042,
+      "kolhydrat": 0.05,
+      "protein": 0.19
+    }
+  },
+  "Kycklinghj\u00e4rta - ELDORADO, 500g": {
+    "price_per_g": 0.039799999999999995,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 500.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.09300000000000001,
+      "kolhydrat": 0.006999999999999999,
+      "protein": 0.16
+    }
+  },
+  "Kycklingmage - ELDORADO, 500g": {
+    "price_per_g": 0.039799999999999995,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "ELDORADO",
+    "weight_in_g": 500.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.042,
+      "kolhydrat": 0.005,
+      "protein": 0.18
+    }
+  },
+  "Kalkonfil\u00e9 Br\u00f6st - INGELSTAKALKON, ca: 450g": {
+    "price_per_g": 0.209,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "INGELSTAKALKON",
+    "weight_in_g": 450.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.02,
+      "kolhydrat": 0.01,
+      "protein": 0.23
+    }
+  },
+  "Minutstrimlor Frysta - KRONF\u00c5GEL, 650g": {
+    "price_per_g": 0.13985,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KRONF\u00c5GEL",
+    "weight_in_g": 650.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.02,
+      "kolhydrat": 0.005,
+      "protein": 0.23
+    }
+  },
+  "Kycklingspett Soya Frysta - KITCHEN JOY, 1.5kg": {
+    "price_per_g": 0.18600999999999998,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KITCHEN JOY",
+    "weight_in_g": 5000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.054000000000000006,
+      "kolhydrat": 0.062,
+      "protein": 0.20800000000000002
+    }
+  },
+  "Kycklingspett Chili Frysta - KITCHEN JOY, 1.5kg": {
+    "price_per_g": 0.18600999999999998,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KITCHEN JOY",
+    "weight_in_g": 5000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.053,
+      "kolhydrat": 0.026000000000000002,
+      "protein": 0.28300000000000003
+    }
+  },
+  "Chicken Tom Yum Bits - KITCHEN JOY, 220g": {
+    "price_per_g": 0.16318000000000002,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KITCHEN JOY",
+    "weight_in_g": 220.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.12,
+      "kolhydrat": 0.22,
       "protein": 0.15
     }
+  },
+  "Chicken Spicy Nacho - KITCHEN JOY, 220g": {
+    "price_per_g": 0.16318000000000002,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KITCHEN JOY",
+    "weight_in_g": 220.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.11,
+      "kolhydrat": 0.15,
+      "protein": 0.17
+    }
+  },
+  "Chicken Southern Fried Filet - KITCHEN JOY, 300g": {
+    "price_per_g": 0.11967,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KITCHEN JOY",
+    "weight_in_g": 300.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.11,
+      "kolhydrat": 0.13,
+      "protein": 0.16
+    }
+  },
+  "Kycklingspett Grillade Fryst - GULDF\u00c5GELN, 1.5kg": {
+    "price_per_g": 0.15934,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GULDF\u00c5GELN",
+    "weight_in_g": 5000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.09,
+      "kolhydrat": 0.01,
+      "protein": 0.19
+    }
+  },
+  "Drumsticks Chicken Bbq Fryst - GULDF\u00c5GELN, 2kg": {
+    "price_per_g": 0.0775,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GULDF\u00c5GELN",
+    "weight_in_g": 2000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.1,
+      "kolhydrat": 0.03,
+      "protein": 0.21
+    }
+  },
+  "Buffalo Wings Frysta - GULDF\u00c5GELN, 2kg": {
+    "price_per_g": 0.0775,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GULDF\u00c5GELN",
+    "weight_in_g": 2000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.15,
+      "kolhydrat": 0.02,
+      "protein": 0.21
+    }
+  },
+  "Hel Anka Fryst - AMI, 2,4kg": {
+    "price_per_g": 0.06626,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "AMI",
+    "weight_in_g": 2400.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.289,
+      "kolhydrat": 0.0,
+      "protein": 0.128
+    }
+  },
+  "Kyckling Hel Eko Krav Svensk - KRONF\u00c5GEL, ca: 2kg": {
+    "price_per_g": 0.145,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "KRONF\u00c5GEL",
+    "weight_in_g": 2000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.09,
+      "kolhydrat": 0.005,
+      "protein": 0.21
+    }
+  },
+  "Chicken Fries Frysta - DAFG\u00c5RDS, 300g": {
+    "price_per_g": 0.10633,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "DAFG\u00c5RDS",
+    "weight_in_g": 300.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.14,
+      "kolhydrat": 0.22,
+      "protein": 0.15
+    }
+  },
+  "Kyckling Br\u00f6stfil\u00e9 Fryst - GULDF\u00c5GELN, 2kg": {
+    "price_per_g": 0.0925,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "GULDF\u00c5GELN",
+    "weight_in_g": 2000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.02,
+      "kolhydrat": 0.005,
+      "protein": 0.21
+    }
+  },
+  "Kalkon Fryst - DOUX, 3.2kg": {
+    "price_per_g": 0.062189999999999995,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "DOUX",
+    "weight_in_g": 2000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.09,
+      "kolhydrat": 0.013000000000000001,
+      "protein": 0.212
+    }
+  },
+  "Kyckling Ben - SOLBACKA, ca: 850g": {
+    "price_per_g": 0.0699,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "SOLBACKA",
+    "weight_in_g": 850.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.09,
+      "kolhydrat": 0.005,
+      "protein": 0.19
+    }
+  },
+  "Kyckling L\u00e5rfil\u00e9 4-pack - SOLBACKA, ca: 400g": {
+    "price_per_g": 0.179,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "SOLBACKA",
+    "weight_in_g": 400.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.09,
+      "kolhydrat": 0.005,
+      "protein": 0.19
+    }
+  },
+  "Kyckling Br\u00f6stfil\u00e9 2-pack - SOLBACKA, ca: 430g": {
+    "price_per_g": 0.219,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "SOLBACKA",
+    "weight_in_g": 430.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.03,
+      "kolhydrat": 0.005,
+      "protein": 0.23
+    }
+  },
+  "Kyckling Hel - SOLBACKA, ca: 1.5kg": {
+    "price_per_g": 0.095,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "SOLBACKA",
+    "weight_in_g": 5000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": {
+      "fett": 0.12,
+      "kolhydrat": 0.005,
+      "protein": 0.18
+    }
+  },
+  "G\u00e5s Fryst - SIGGARP, ca: 5.25kg": {
+    "price_per_g": 0.149,
+    "price_per_qty": null,
+    "price_per_ml": null,
+    "brand": "SIGGARP",
+    "weight_in_g": 25000.0,
+    "volume_in_ml": null,
+    "qty": null,
+    "macros_per_g": null
   }
 }
