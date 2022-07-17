@@ -110,7 +110,7 @@ def extract_data_from_food_img(driver, data, food_img):
 
     # Process subname, exit if unit does not match
     subname = driver.find_element(By.CSS_SELECTOR, "span.ProductDetailsstyles__StyledProductDetailsManufacturerVolume-sc-1gianr0-22.jlvnMx").text
-    match = re.search(r'([,\d]+)(g|kg|p|ml|dl|l)', subname, re.IGNORECASE)
+    match = re.search(r'([,\d]+)\s+(g|kg|p|ml|dl|l)', subname, re.IGNORECASE)
     if match:
         num_str, unit_str = match.groups()
     else:
