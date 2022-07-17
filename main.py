@@ -184,8 +184,8 @@ def extract_data_from_food_img(driver, data, food_img):
             d[item[0]] = float(item[1].replace(',', '.')) / 100
         macros_per_g = d
         log('Found nutritional value.', 1)
-    except Exception as e:
-        log(f'Error while parsing nutrition: {e}', 1)
+    except:
+        log(f'No nutritional data found.', 1)
         macros_per_g = None
 
     data[f"{name} - {subname}"] = {
