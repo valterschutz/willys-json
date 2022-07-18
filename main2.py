@@ -24,7 +24,7 @@ def parse_product_json(json_data):
     d = {}
     try:
         d["name"] = json_data["name"]
-        d["comparePrice"] = float(re.search(r"[\d, ]+", json_data["comparePrice"], re.IGNORECASE).group().replace(',', '.').replace(' ', ''))
+        d["comparePrice"] = float(re.search(r"[\d, ]+", "".join(json_data["comparePrice"].split()), re.IGNORECASE).group().replace(',', '.'))
         d["comparePriceUnit"] = json_data["comparePriceUnit"]
         d["displayVolume"] = json_data["displayVolume"]
         for nutritionFact in json_data["nutritionsFactList"]:
@@ -39,27 +39,28 @@ def parse_product_json(json_data):
         log(e, 1)
         return {}
 
-all_products = []
-for category_url in URLS:
-    log(f"Getting products from url {category_url}...")
-    category_request = requests.get(category_url)
-    category_products_json = category_request.json()
-    n_products = len(category_products_json["results"])
-    for i, result in enumerate(category_products_json["results"]):
-        log(f"Processing request #{i+1}/#{n_products}...", 1)
-        code = result["code"]
-        url = "https://www.willys.se/axfood/rest/p/X".replace("X", code)
-        request = requests.get(url)
-        try:
-            json_data = request.json()
-            parsed_json = parse_product_json(json_data)
-            all_products.append(parsed_json)
-        except Exception as e:
-            log(e)
+if __name__ == "__main__":
+    all_products = []
+    for category_url in URLS:
+        log(f"Getting products from url {category_url}...")
+        category_request = requests.get(category_url)
+        category_products_json = category_request.json()
+        n_products = len(category_products_json["results"])
+        for i, result in enumerate(category_products_json["results"]):
+            log(f"Processing request #{i+1}/#{n_products}...", 1)
+            code = result["code"]
+            url = "https://www.willys.se/axfood/rest/p/X".replace("X", code)
+            request = requests.get(url)
+            try:
+                json_data = request.json()
+                parsed_json = parse_product_json(json_data)
+                all_products.append(parsed_json)
+            except Exception as e:
+                log(e)
 
-json_str = json.dumps(all_products)
-f = open(sys.argv[1], "w")
-f.write(json_str)
-f.close()
+    json_str = json.dumps(all_products)
+    f = open(sys.argv[1], "w")
+    f.write(json_str)
+    f.close()
 # print(products)
 
