@@ -5,4 +5,4 @@ A python script for generating a JSON file with comparison price and nutritional
 ```
 python3 main.py
 ```
-This will generate the json data in a file called ```data.json```.
+This will generate the JSON data in a file called ```data.json```.
