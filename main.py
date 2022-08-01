@@ -27,6 +27,7 @@ def log(msg, indent=0):
 
 # This parses the json data for each product, only keeping values
 # of interest and doing type conversions
+# Note that it only keeps items that have defined comparison prices
 def parse_product_json(json_data):
     d = {}
     try:
